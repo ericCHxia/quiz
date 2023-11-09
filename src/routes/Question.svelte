@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { n, correctList } from '../store';
+	import Model from '$lib/Model.svelte';
+	import AnswerResult from './AnswerResult.svelte';
 
 	const dispatch = createEventDispatcher();
 	function submit() {
@@ -9,6 +11,7 @@
 
 	export let correct = false;
 	export let submitted = false;
+	let open=false;
 
 	function next() {
 		$n += 1;
@@ -18,7 +21,9 @@
 		$n -= 1;
 	}
 </script>
-
+<Model bind:open={open}>
+	<AnswerResult />
+</Model>
 <div class="grid grid-cols-1 content-between h-full">
 	<div>
 		<div class="font-bold text-lg sm:text-base">
@@ -43,13 +48,20 @@
 			{/if}
 		{/if}
 	</div>
-	<div class="mt-4 grid-cols-2 grid gap-1 md:grid-cols-none md:flex md:justify-end">
+	<div class="mt-4 grid-cols-3 grid gap-1 md:grid-cols-none md:flex md:justify-end">
 		<button
 			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden"
 			on:click={previous}
 			disabled={$n == 0}
 		>
 			Previous
+		</button>
+
+		<button
+			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden"
+			on:click={() => open = true}
+		>
+			Show
 		</button>
 
 		<button
@@ -69,7 +81,7 @@
 			</button>
 		{:else}
 			<button
-				class="btn py-2 text-white bg-indigo-600 hover:bg-indigo-700 col-span-2"
+				class="btn py-2 text-white bg-indigo-600 hover:bg-indigo-700 col-span-3"
 				on:click={submit}
 			>
 				Submit
