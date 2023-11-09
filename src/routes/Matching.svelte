@@ -25,12 +25,12 @@
 	<div slot="description">
 		{@html data.text}
 	</div>
-	{#each data.answers as answer, index}
-		<div class="flex flex-row font-medium text-sm items-center">
-			<div class="w-1/3">
+	<div class="mt-4 grid sm:grid-cols-4 grid-cols-1 text-sm items-center sm:gap-x-2 gap-1">
+		{#each data.answers as answer, index}
+			<div>
 				{answer.text}
 			</div>
-			<div class="w-2/3">
+			<div class="sm:col-span-3">
 				<Select {items} bind:value={answers[index]} />
 				{#if submitted}
 					{#if !correct[index]}
@@ -40,6 +40,6 @@
 					{/if}
 				{/if}
 			</div>
-		</div>
-	{/each}
+		{/each}
+	</div>
 </Question>
