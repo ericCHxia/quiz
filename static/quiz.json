@@ -1,0 +1,1414 @@
+[
+  {
+    "type": "multiple_choice_question",
+    "text": "An enterprise application is:",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "The software that runs the navigation for the USS Enterprise"
+      },
+      {
+        "correct": false,
+        "answer_text": "Any software that has been developed by a major organisation"
+      },
+      {
+        "correct": true,
+        "answer_text": "A large software system designed to support a major aspect of an organisations operations"
+      },
+      {
+        "correct": false,
+        "answer_text": "Any software that is used by a major enterprise"
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Deloitte research has identified a number of key approaches to attracting and retaining expert staff. Select the top three reasons that were identified.",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Adjust rewards depending on performance"
+      },
+      { "correct": true, "answer_text": "Provide career flexibility" },
+      {
+        "correct": false,
+        "answer_text": "Allow employers to have dinner with the boss"
+      },
+      { "correct": false, "answer_text": "Offer fast-track career pathways" },
+      { "correct": false, "answer_text": "Be recognised as a good employer" },
+      { "correct": true, "answer_text": "Offering mentoring for staff" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Which of these should you be able to explain for the topic&nbsp;</span><em>The IT Industry<span>&nbsp;</span></em><span>following the week 1 lecture? (Select all that apply)</span>",
+    "answers": [
+      { "correct": false, "answer_text": "What professional practice is" },
+      {
+        "correct": true,
+        "answer_text": "The effects that has on organisations"
+      },
+      {
+        "correct": true,
+        "answer_text": "Examples of IT-related jobs and careers"
+      },
+      { "correct": true, "answer_text": "Typical IT-related activities" },
+      {
+        "correct": true,
+        "answer_text": "The kinds of changes that have taken place in IT and how it might change in the future"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Which of the following is the greatest obstacle to the success of most major change projects.",
+    "answers": [
+      { "correct": true, "answer_text": "People resistance" },
+      { "correct": false, "answer_text": "Changing requirements" },
+      { "correct": false, "answer_text": "Speed limits" },
+      { "correct": false, "answer_text": "Software bugs" },
+      { "correct": false, "answer_text": "Time constraints" },
+      { "correct": false, "answer_text": "Cost increases" }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "Match the design approach with the most appropriate role of users.",
+    "answers": [
+      {
+        "text": "Participatory design",
+        "matching": "Designing with input from users"
+      },
+      {
+        "text": "Co-design",
+        "matching": "Designing with the involvement of users"
+      }
+    ],
+    "matching_list": [
+      "Designing despite being interrupted by users",
+      "Designing whilst supervised by users",
+      "Designing whilst being paid by users",
+      "Designing with input from users",
+      "Designing with the involvement of users",
+      "Designing for the needs of users"
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Fill in the blank by selecting the one that is most correct, according to the reading <a class=\"inline_disabled\" href=\"https://www.onedesk.com/project-teams-management/\" target=\"_blank\">(The different models of project teams in project management),</a> In a matrix organisational structure, team members will _____________.&nbsp;",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "work in both functional and project-based roles"
+      },
+      { "correct": false, "answer_text": "have multiple bosses" },
+      {
+        "correct": false,
+        "answer_text": "be involved in making science-fiction movie series"
+      },
+      {
+        "correct": false,
+        "answer_text": "undertake both programming and design"
+      },
+      {
+        "correct": false,
+        "answer_text": "work in both project-based and program-based roles"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.onedesk.com/project-teams-management/\" target=\"_blank\">(The different models of project teams in project management)</a>, what remains common in building a project team?",
+    "answers": [
+      { "correct": false, "answer_text": "Project team." },
+      { "correct": false, "answer_text": "The nature of the project." },
+      {
+        "correct": true,
+        "answer_text": "The goal of successful project completion with an effective group of people."
+      },
+      { "correct": false, "answer_text": "Resourcing available." },
+      { "correct": false, "answer_text": "Project deliverables." }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.onedesk.com/project-teams-management/\" target=\"_blank\">(The different models of project teams in project management)</a>, in the case that a project team is quite large, which of the following factors are true? (Select all that apply).",
+    "answers": [
+      { "correct": false, "answer_text": "There are too many resources." },
+      {
+        "correct": true,
+        "answer_text": "The project lead may manage the sub-teams themselves."
+      },
+      { "correct": false, "answer_text": "There is no proper team structure." },
+      {
+        "correct": true,
+        "answer_text": "There may be sub-teams for functional pieces"
+      },
+      {
+        "correct": true,
+        "answer_text": "For each sub-team there may be a lead who deals directly with the project lead."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "The reading <a class=\"inline_disabled\" href=\"https://www.ipma.world/forming-project-teams-the-right-mix-is-key-to-success/\" target=\"_blank\">(<span>Forming project teams \u2013 the right mix is key to success)</span></a> referred to Tuckman's five stages, and this was then explained further in reading 4 <a class=\"inline_disabled\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\">(<span>5 Stages of a Team Development Tuckman | Better Explained)</span></a>. One of the five stages is storming, where a team has problems. Which of the following are identified as ways of dealing with these problems? (Select all that apply).",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Always give work to the person who is most capable"
+      },
+      { "correct": true, "answer_text": "Set proper ground rules" },
+      { "correct": false, "answer_text": "Fire anyone who is a troublemaker" },
+      {
+        "correct": true,
+        "answer_text": "Define tasks clearly within individuals domains"
+      },
+      { "correct": true, "answer_text": "Define clear responsibilities" },
+      {
+        "correct": false,
+        "answer_text": "Only allocate work to people who are keen to do it"
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\">(T<span>eam Building in Project Management)</span></a>, which of the following are major barriers to project teams development? (Select all that apply).",
+    "answers": [
+      { "correct": true, "answer_text": "Conflicts over Roles" },
+      { "correct": true, "answer_text": "Lack of Team Structure" },
+      { "correct": true, "answer_text": "Changing Project Environments" },
+      { "correct": true, "answer_text": "Communication Difficulties" },
+      {
+        "correct": false,
+        "answer_text": "Different levels of technical skills"
+      },
+      { "correct": false, "answer_text": "Changing team membership" },
+      {
+        "correct": true,
+        "answer_text": "Missing Support from Senior Management"
+      },
+      { "correct": true, "answer_text": "Credibility of the Project Leader" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\">(<span>Critical success factors in project management. To fail or not to fail, that is the question!)</span></a> what are some of the factors that substantially influence project success?&nbsp;",
+    "answers": [
+      { "correct": false, "answer_text": "Recognising client's needs." },
+      {
+        "correct": true,
+        "answer_text": "Formal establishing of Project Manager."
+      },
+      { "correct": false, "answer_text": "Client involvement." },
+      { "correct": true, "answer_text": "Establishing project team." },
+      { "correct": true, "answer_text": "Top management support." },
+      {
+        "correct": false,
+        "answer_text": "The change in the company environment."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<p>The reading <a class=\"inline_disabled\" href=\"https://www.managementstudyguide.com/information-technology-and-business-alignment.htm\" target=\"_blank\">(Information Technology and Business Alignment: Why it is Important)</a> discusses the importance of ensuring the goals and objectives are expressed in a clear and coherent manner and suggest the SMART model be used to do this.</p>\n<p>Which option below correctly identified what each letter in the SMART model stands for?</p>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Scope, Measurable, Achievable, Risks, Time Bound"
+      },
+      {
+        "correct": false,
+        "answer_text": "Specific, Management, Achievable, Risks, Time Bound"
+      },
+      {
+        "correct": true,
+        "answer_text": "Specific, Measurable, Achievable, Realistic, Time Bound"
+      },
+      {
+        "correct": false,
+        "answer_text": "Stakeholders, Measurable, Achievable, Risks, Time Bound"
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "As per the reading <a class=\"inline_disabled\" href=\"https://www.managementstudyguide.com/information-technology-and-business-alignment.htm\" target=\"_blank\">(Information Technology and Business Alignment: Why it is Important)</a> which of the following statements about IT Business alignment are true? (Select all that are applicable).",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "There are significant benefits that can be attained from aligning IT and business strategies however in terms of value, the value that can be added to the organisations is not substantial."
+      },
+      {
+        "correct": true,
+        "answer_text": "IT business alignment is usually referred to as the \u201cHoly Grail\u201d."
+      },
+      {
+        "correct": false,
+        "answer_text": "IT business alignment is not easier said than done in practice."
+      },
+      {
+        "correct": true,
+        "answer_text": "The crucial factor for successful IT business alignment is the creation of value at each step of the value chain of the organisations' processes."
+      },
+      {
+        "correct": true,
+        "answer_text": "IT Business alignment can be defined as the dynamic actualisation of organisational goals and objectives."
+      },
+      {
+        "correct": true,
+        "answer_text": "IT Business alignment can be defined as the operationalisation of the IT strategies according to the organisational objectives."
+      }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "<p><span>The Week 4 Lecture on 'People and Teams' discussed 'Key roles in Change Management'. Match the roles to the correct descriptions.</span></p>",
+    "answers": [
+      {
+        "text": "Executives and senior leaders",
+        "matching": "fulfilling the role of sponsors of change"
+      },
+      {
+        "text": "Middle managers and supervisors",
+        "matching": "fulfilling the role of coach for their direct reports"
+      },
+      {
+        "text": "Change management resource or team",
+        "matching": "applying a structured approach and enabling other"
+      },
+      {
+        "text": "Project team",
+        "matching": "integrating the \u201cpeople side\u201d of change"
+      },
+      { "text": "Support functions", "matching": "providing expertise" }
+    ],
+    "matching_list": [
+      "providing expertise",
+      "fulfilling the role of coach for their direct reports",
+      "integrating the \u201cpeople side\u201d of change",
+      "fulfilling the role of sponsors of change",
+      "applying a structured approach and enabling other"
+    ]
+  },
+  {
+    "type": "multiple_dropdowns_question",
+    "text": "<p><span>The Week 4 Lecture on 'People and Teams' discussed 'The ADKAR Change Model'. Fill in the blanks and correctly identify the five building blocks for successful change.</span></p>\n<p><span>A-<select class='question_input' name='question_2852318_3c57e5bf0af5daac63fef8bd5d86b583'>\n  <option value=''>\n    [ Select ]\n  </option>\n  [\"<option value='5893'>awareness</option>\", \"<option value='542'>ability</option>\", \"<option value='4920'>adoption</option>\", \"<option value='7633'>acceptance</option>\", \"<option value='9970'>accountability</option>\"]\n</select>\n, D-<select class='question_input' name='question_2852318_73bbf95e3b8c919765276dbbbff75ee3'>\n  <option value=''>\n    [ Select ]\n  </option>\n  [\"<option value='2801'>distinctive</option>\", \"<option value='7483'>desire</option>\", \"<option value='2615'>dependable</option>\", \"<option value='4865'>dynamic</option>\", \"<option value='7050'>diversity</option>\"]\n</select>\n, K-<select class='question_input' name='question_2852318_83b21665cce5c448eb1e76aad58e08ec'>\n  <option value=''>\n    [ Select ]\n  </option>\n  [\"<option value='2346'>knowledge</option>\", \"<option value='6512'>knowledgable</option>\", \"<option value='7032'>kinetic</option>\", \"<option value='9927'>keen</option>\"]\n</select>\n, A-<select class='question_input' name='question_2852318_8daef2e6ad4ba72a308b894bfaae5134'>\n  <option value=''>\n    [ Select ]\n  </option>\n  [\"<option value='8294'>awareness</option>\", \"<option value='7765'>adoption</option>\", \"<option value='8770'>accountability</option>\", \"<option value='6825'>ability</option>\", \"<option value='2713'>acceptance</option>\"]\n</select>\n, R-<select class='question_input' name='question_2852318_67a30e5c0287d4436425c3d8f1f2afc5'>\n  <option value=''>\n    [ Select ]\n  </option>\n  [\"<option value='6493'>reasonable</option>\", \"<option value='9719'>reassuring</option>\", \"<option value='6744'>reinforcement</option>\", \"<option value='8601'>relevant</option>\"]\n</select>\n</span></p>",
+    "answers": ["awareness", "desire", "knowledge", "ability", "reinforcement"]
+  },
+  {
+    "type": "matching_question",
+    "text": "<p><span>The Week 4 Lecture on 'People and Teams' discussed 'John Kotter's 8 Step Change Model'.&nbsp;</span></p>\n<p><span>Correctly order the steps below from step 1 - 8.</span></p>",
+    "answers": [
+      { "text": "Don't Let Up", "matching": "7" },
+      { "text": "Get the Right Vision", "matching": "3" },
+      { "text": "Make it Stick", "matching": "8" },
+      { "text": "Empower Action", "matching": "5" },
+      { "text": "Communicate for Buy-in", "matching": "4" },
+      { "text": "Create Short-term Wins", "matching": "6" },
+      { "text": "Increase Urgency", "matching": "1" },
+      { "text": "Build the Guiding Team", "matching": "2" }
+    ],
+    "matching_list": ["5", "2", "1", "3", "6", "4", "7", "8"]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Based on the <em>'Week 3 Lecture - IT Lifecycles and their processes'&nbsp;</em>which of the following are Agile ways of working?",
+    "answers": [
+      { "correct": true, "answer_text": "Cross Functional Teaming" },
+      { "correct": true, "answer_text": "Continuous Delivery" },
+      { "correct": true, "answer_text": "Extreme Programming (XP)" },
+      { "correct": true, "answer_text": "Continuous Integration" },
+      { "correct": true, "answer_text": "Test Driven Development" },
+      { "correct": true, "answer_text": "Scrum" }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "The Week 3 Guest Lecture on&nbsp;<em>Outsourcing</em> match the following to the decade according to 'Outsourcing Evolution'",
+    "answers": [
+      {
+        "text": "Traditional Outsourcing of non core activities - focused on cost reduction",
+        "matching": "80s to 90s"
+      },
+      {
+        "text": "Strategic outsourcing business processes - focused on enhancing capability and improving",
+        "matching": "90s to 00s"
+      },
+      {
+        "text": "Transformational outsourcing - focus on quickly adapting and innovating",
+        "matching": "00s to today"
+      }
+    ],
+    "matching_list": ["90s to 00s", "80s to 90s", "00s to today"]
+  },
+  {
+    "type": "matching_question",
+    "text": "<span>The Week 3 Guest Lecture on&nbsp;</span><em>Outsourcing</em><span>&nbsp;discussed 'IT Services', match the following IT Services to the suitable example(s).</span>",
+    "answers": [
+      {
+        "text": "In House",
+        "matching": "Specialist IT Security team performing pen testing"
+      },
+      {
+        "text": "Managed Services",
+        "matching": "Signing up with Microsoft for corporate Email services (charged per user/month)"
+      },
+      {
+        "text": "Project Based",
+        "matching": "Contracting IBM to build a new payroll system"
+      },
+      {
+        "text": "Staff Augmentation",
+        "matching": "Hire external designers to build new front-end for the website"
+      }
+    ],
+    "matching_list": [
+      "Hire external designers to build new front-end for the website",
+      "Specialist IT Security team performing pen testing",
+      "Contracting IBM to build a new payroll system",
+      "Signing up with Microsoft for corporate Email services (charged per user/month)"
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the '<em>Week 3 Guest Lecture on </em></span><em>Outsourcing'</em><span>&nbsp;what are the benefits of 'Managed Services' (Select all that are applicable).</span>",
+    "answers": [
+      { "correct": true, "answer_text": "Easy to scale up or down" },
+      { "correct": false, "answer_text": "End-user satisfaction" },
+      { "correct": false, "answer_text": "Vendor lock-in" },
+      { "correct": true, "answer_text": "Shifts risks to provider" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "The reading <a class=\"inline_disabled\" href=\"https://fortegrp.com/top-software-development-models/\" target=\"_blank\">(Top 6 software development models and how they influence the SDLC)</a> discusses the Agile SDLC model. Which of the following options did the reading discuss as the most popular sub-groups/techniques within Agile? (Select all that are applicable).",
+    "answers": [
+      { "correct": false, "answer_text": "DevOps" },
+      { "correct": true, "answer_text": "Scrum" },
+      { "correct": false, "answer_text": "Spiral" },
+      { "correct": true, "answer_text": "Kanban" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://web.njit.edu/~wolf/psf.html\" target=\"_blank\">(<span>Project Success and Failure: Factors that make for Project Success or Failure)</span></a> what are some of the factors that make a project a success? (Select all that apply).",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Have backup strategies to deal with possible problems."
+      },
+      { "correct": true, "answer_text": "Avoid overoptimism." },
+      {
+        "correct": false,
+        "answer_text": "Doing more than is required by contract ."
+      },
+      {
+        "correct": true,
+        "answer_text": "Match the right people to the right jobs."
+      },
+      { "correct": false, "answer_text": "Leaving no room for change." },
+      {
+        "correct": false,
+        "answer_text": "Ensure work pages are the proper size - i.e. manageable in size and realistic in terms of effort and time."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which 3 steps from John Kotter's 8 step change model are focused on&nbsp;<em>\"Creating a climate for change\"</em>? (Select all that are applicable)",
+    "answers": [
+      { "correct": true, "answer_text": "Increase urgency" },
+      { "correct": false, "answer_text": "Create short term wins" },
+      { "correct": false, "answer_text": "Communicate for by-in" },
+      { "correct": true, "answer_text": "Get the right vision" },
+      { "correct": false, "answer_text": "Make it stick" },
+      { "correct": true, "answer_text": "Build the guiding team" },
+      { "correct": false, "answer_text": "Don't let up" },
+      { "correct": false, "answer_text": "Empower action" }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "<span>Match the group of people with the role they play in supporting management of change.</span>",
+    "answers": [
+      { "text": "Senior Management", "matching": "Sponsoring change" },
+      {
+        "text": "Supervisors",
+        "matching": "Coaching the people who report to them"
+      },
+      {
+        "text": "Change managers",
+        "matching": "Applying a structured approach"
+      },
+      {
+        "text": "Project team",
+        "matching": "Integrating the people side of change"
+      },
+      { "text": "Support people", "matching": "Providing expertise" }
+    ],
+    "matching_list": [
+      "Applying a structured approach",
+      "Providing support",
+      "Coaching the people who report to them",
+      "Sponsoring change",
+      "Undertaking testing",
+      "Writing code",
+      "Providing expertise",
+      "Integrating the people side of change"
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which of the following are key perspectives of ADKAR. (Select all that apply).",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Visible and active sponsorship is not only desirable but necessary for success"
+      },
+      {
+        "correct": true,
+        "answer_text": "The \u201cright\u201d answer is not enough to successfully implement change"
+      },
+      {
+        "correct": true,
+        "answer_text": "Change agents must be conscious of both a senders\u2019 mentality and the receivers\u2019 orientation"
+      },
+      {
+        "correct": true,
+        "answer_text": "Employees go through the change process in stages and go through these stages as individuals"
+      },
+      {
+        "correct": true,
+        "answer_text": "Employee resistance is the norm, not the exception. Expect some to never support the change"
+      },
+      {
+        "correct": false,
+        "answer_text": "It is important to try to get everyone to move through change together"
+      },
+      {
+        "correct": false,
+        "answer_text": "Once you convince the early adopters to change, the others will follow"
+      },
+      {
+        "correct": false,
+        "answer_text": "It is important to slow down if change isn't working"
+      },
+      {
+        "correct": true,
+        "answer_text": "Value systems have a direct impact on how employees react to change"
+      },
+      {
+        "correct": true,
+        "answer_text": "The size of the change determines how much and what kind of change management is needed"
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a><span>&nbsp;what are some characteristics of an ineffective project team? (Select all that apply).</span>",
+    "answers": [
+      { "correct": true, "answer_text": "Subtle Sabotage" },
+      { "correct": true, "answer_text": "Low Performance" },
+      {
+        "correct": true,
+        "answer_text": "Manipulation of Others, Hidden Feelings"
+      },
+      {
+        "correct": false,
+        "answer_text": "Professional Objectives of Team Members Coincides with Project Requirements"
+      },
+      { "correct": false, "answer_text": "Team Members Highly Interdependent" },
+      {
+        "correct": true,
+        "answer_text": "Team Members Operate Independently/ Lack of Coordination"
+      },
+      { "correct": true, "answer_text": "Lethargic/Unresponsive" },
+      { "correct": true, "answer_text": "Low Commitment to Project Objectives" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "The lecture in Week 4 on 'Finding and Trusting Information' defines sources as?&nbsp;",
+    "answers": [
+      { "correct": false, "answer_text": "None of these options are correct" },
+      {
+        "correct": false,
+        "answer_text": "The circumstances that form the setting of an event"
+      },
+      { "correct": false, "answer_text": "Recorded facts" },
+      {
+        "correct": true,
+        "answer_text": "The materials from which ideas  and information are gathered."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the lecture in Week 4 on <em>'Finding and Trusting Information'</em> what is the purpose of Referencing? (Select all that are applicable)</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "To allow the writer to copy other writer's work"
+      },
+      {
+        "correct": true,
+        "answer_text": "Point the reader to the original documents so that they can determine independently whether the attributed sources support the author\u2019s argument as written"
+      },
+      {
+        "correct": true,
+        "answer_text": "Acknowledge the original source of ideas and work that is not the author's own"
+      },
+      {
+        "correct": false,
+        "answer_text": "For the writer to remember where they got the information from"
+      }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "<p><span>The lecture in Week 4 on </span><em>'Finding and Trusting Information'<span>&nbsp;</span></em><span>discusses 'Data', 'Information', 'Knowledge' and 'Wisdom'.</span></p>\n<p><span>Match the following examples to the term that best describes the example.</span></p>",
+    "answers": [
+      { "text": "Data", "matching": "A red and round object." },
+      { "text": "Information", "matching": "The object is a tomato." },
+      { "text": "Knowledge", "matching": "The tomato is a fruit." },
+      { "text": "Wisdom", "matching": "Don't put tomato in a fruit salad." }
+    ],
+    "matching_list": [
+      "The tomato is a fruit.",
+      "Don't put tomato in a fruit salad.",
+      "A red and round object.",
+      "The object is a tomato."
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "According to the reading <a class=\"inline_disabled external\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\"><span>(5 Stages of a Team Development Tuckman | Better Explained)</span></a> match the five stages of team development to the description that best describes what occurs in the stage.",
+    "answers": [
+      {
+        "text": "Forming",
+        "matching": "This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another."
+      },
+      {
+        "text": "Storming",
+        "matching": "This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc."
+      },
+      {
+        "text": "Norming",
+        "matching": "This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc."
+      },
+      {
+        "text": "Performing",
+        "matching": "This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work."
+      },
+      {
+        "text": "Adjourning",
+        "matching": "This is the stage in which the teams are disbanded and most people will need to find new opportunities."
+      }
+    ],
+    "matching_list": [
+      "This is the stage in which the teams are disbanded and most people will need to find new opportunities.",
+      "This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc.",
+      "This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work.",
+      "This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc.",
+      "This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another."
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://web.njit.edu/~wolf/psf.html\" target=\"_blank\"><span>(Project Success and Failure: Factors that make for Project Success or Failure)</span><span class=\"screenreader-only\">&nbsp;(Links to an external site.)</span></a><span>&nbsp;what are some major causes of project failure? (Select all that apply).</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Tie together responsibility, performance and rewards."
+      },
+      {
+        "correct": false,
+        "answer_text": "Allow adequate time and effort for layouts."
+      },
+      { "correct": true, "answer_text": "Inadequately defined tasks ." },
+      {
+        "correct": true,
+        "answer_text": "Doing more than is required by contract ."
+      },
+      { "correct": false, "answer_text": "Being open to change." }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "According to the reading<a class=\"inline_disabled\" href=\"https://project-management.com/top-10-reasons-why-projects-fail/\" target=\"_blank\">(Project Failure: Top 10 Reasons Why Projects Fail)</a> what are some of the top reasons why a project fails? (Select all that apply).",
+    "answers": [
+      { "correct": true, "answer_text": "Poor Communication" },
+      { "correct": false, "answer_text": "Generous Budget" },
+      { "correct": false, "answer_text": "Under-allocated Resources" },
+      { "correct": true, "answer_text": "Bad Stakeholder Management" },
+      { "correct": true, "answer_text": "Over-allocated Resources" },
+      { "correct": true, "answer_text": "Unreliable Estimates" },
+      { "correct": false, "answer_text": "Team Planning Sessions" },
+      { "correct": true, "answer_text": "Scope Creep" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\"><span>(Critical success factors in project management. To fail or not to fail, that is the question!)</span><span class=\"screenreader-only\">&nbsp;(Links to an external site.)</span></a><span>&nbsp;what are some of the factors that have a small influence on project success?&nbsp;</span>",
+    "answers": [
+      { "correct": true, "answer_text": "IT Support for scheduling." },
+      { "correct": false, "answer_text": "Ad-hoc project team meetings." },
+      {
+        "correct": true,
+        "answer_text": "Periodically meeting of the steering commitee."
+      },
+      { "correct": false, "answer_text": "Client staff fluctuation." },
+      {
+        "correct": false,
+        "answer_text": "Periodical reports to project team."
+      },
+      { "correct": false, "answer_text": "Project team experience." },
+      { "correct": true, "answer_text": "Frequent changes in schedules." }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Based on the&nbsp;<em>Week 6 Lecture - Project Estimation</em>, what are the 'Five steps in project estimation'?",
+    "answers": [
+      { "correct": true, "answer_text": "Calculate the DURATION" },
+      { "correct": false, "answer_text": "Procure a LOCATION" },
+      { "correct": true, "answer_text": "Decide on the RESOURCES needed" },
+      { "correct": true, "answer_text": "Determine the EFFORT required" },
+      { "correct": false, "answer_text": "Hire the RESOURCES" },
+      { "correct": false, "answer_text": "Find a SPONSOR" },
+      { "correct": true, "answer_text": "Determine the SIZE of the project" },
+      { "correct": true, "answer_text": "Calculate the COST" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the&nbsp;</span><em>Week 6 Lecture - Project Estimation</em><span>, which of the following project estimation approaches are not common? (Select all that are applicable).</span>",
+    "answers": [
+      { "correct": true, "answer_text": "Algorithmic cost model" },
+      { "correct": true, "answer_text": "Component matrix" },
+      { "correct": true, "answer_text": "Function point analysis" },
+      { "correct": false, "answer_text": "Sum of the parts" },
+      { "correct": false, "answer_text": "Expert judgement" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the&nbsp;</span><em>Week 6 Lecture - Project Estimation</em><span>, which of the following explanations best define 'Empirical Models'?</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Used as input to compute cost, duration."
+      },
+      {
+        "correct": false,
+        "answer_text": "\u201cEmbedded\u201d communications processing  software for electronic funds transfer network; software for electronic funds transfer network."
+      },
+      {
+        "correct": true,
+        "answer_text": "A mathematical function that mimics some trend seen in  observed data."
+      },
+      {
+        "correct": false,
+        "answer_text": "Cannot be used to predict, but not explain the behaviour of  a system."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Base on the reading <a class=\"inline_disabled\" href=\"https://www.microsoft.com/en-au/microsoft-365/business-insights-ideas/resources/benefits-of-business-analytics\" target=\"_blank\">(The Benefits of business analytics)</a> what are the different types of business analytics? (Select all that are applicable).",
+    "answers": [
+      { "correct": true, "answer_text": "Descriptive analytics" },
+      { "correct": true, "answer_text": "Predictive analytics" },
+      { "correct": true, "answer_text": "Prescriptive analytics" },
+      { "correct": false, "answer_text": "Productive analytics" },
+      { "correct": false, "answer_text": "Definitive analytics" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Base on the reading <a class=\"inline_disabled\" href=\"https://www.microsoft.com/en-au/microsoft-365/business-insights-ideas/resources/benefits-of-business-analytics\" target=\"_blank\">(The Benefits of business analytics)</a> what are some of the benefits of using business analytics? (Select all that are applicable).",
+    "answers": [
+      { "correct": true, "answer_text": "Staying in the know." },
+      { "correct": false, "answer_text": "Delivering on schedule." },
+      {
+        "correct": true,
+        "answer_text": "The ability to measure accomplishments against overall goals."
+      },
+      { "correct": true, "answer_text": "Better decision making." },
+      { "correct": true, "answer_text": "Keeping you on budget." },
+      { "correct": true, "answer_text": "Building efficiency" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p>Based on the reading <a class=\"inline_disabled\" href=\"https://www.projectcentral.com\" target=\"_blank\">(The Ultimate Guide to Project Tracking)</a> is the following statement true or false?</p>\n<p><em>\"Project tracking is a method of project management for following progress (or lack thereof) of activities involved in projects\".</em></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Based on the reading <a class=\"inline_disabled\" href=\"https://www.projectcentral.com\" target=\"_blank\">(The Ultimate Guide to Project Tracking)</a> what are four key benefits that effective project tracking should deliver? (Select all that are applicable).",
+    "answers": [
+      { "correct": false, "answer_text": "Accurate project data" },
+      { "correct": true, "answer_text": "Easy and Accurate Reporting" },
+      { "correct": true, "answer_text": "Problem Identifiers" },
+      { "correct": true, "answer_text": "Real Time Information" },
+      { "correct": false, "answer_text": "Team Motivation & Morale" },
+      { "correct": true, "answer_text": "Team Motivation" },
+      { "correct": false, "answer_text": "Challenge Identifiers" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "\"<span>The process by which data is scrambled and encoded to make it unintelligible\" is which of the following?</span>",
+    "answers": [
+      { "correct": false, "answer_text": "Decryption" },
+      { "correct": true, "answer_text": "Encryption" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "The following statement \"<span>A password that works for only one network session or transaction\" defines which of the following terms.</span>",
+    "answers": [
+      { "correct": false, "answer_text": "Security Token" },
+      { "correct": true, "answer_text": "One-Time Password" },
+      { "correct": false, "answer_text": "Authentication" },
+      { "correct": false, "answer_text": "Authorisation." }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "The statement \" <span>Individuals who work to exploit vulnerabilities in a computer system, sometimes for information gathering, protest or theft\" </span>defines which one of the following threats?",
+    "answers": [
+      { "correct": false, "answer_text": "Hacktivists" },
+      { "correct": true, "answer_text": "Hackers" },
+      { "correct": false, "answer_text": "Corporate Spies" },
+      { "correct": false, "answer_text": "Employees" },
+      { "correct": false, "answer_text": "Activists" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Which of the following terms can be defined as \"a requirement of more than one method to validate an user\"",
+    "answers": [
+      { "correct": false, "answer_text": "Authentication" },
+      { "correct": true, "answer_text": "Two-Factor Authentication" },
+      { "correct": false, "answer_text": "Authorisation" }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "<p><span>The \u201ccyber kill chain\u201d is a sequence of stages required for an attacker to successfully infiltrate a network and exfiltrate data from it. </span></p>\n<p>Order the stages of a \"cyber kill chain\".</p>",
+    "answers": [
+      { "text": "Stage 1", "matching": "Reconnaissance & Probing" },
+      { "text": "Stage 2", "matching": "Delivery & Attack" },
+      { "text": "Stage 3", "matching": "Exploitation & Installation" },
+      { "text": "Stage 4", "matching": "System Compromise" }
+    ],
+    "matching_list": [
+      "Exploitation & Installation",
+      "Reconnaissance & Probing",
+      "System Compromise",
+      "Delivery & Attack"
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Which of the following best defines the security incident \"Improper Usage\"?",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "An attack that employs brute force methods to compromise, degrade, or destroy systems, networks, or services"
+      },
+      {
+        "correct": true,
+        "answer_text": "Any incident resulting from violation of an organization\u2019s acceptable usage policies by an authorized user."
+      },
+      {
+        "correct": false,
+        "answer_text": "The loss or theft of a computing device or media used by the organization, such as a laptop or smartphone."
+      },
+      {
+        "correct": false,
+        "answer_text": "An attack executed via an email message or attachment (e.g. malware infection)."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which of the following incident types <span>aligns to the \"Exploitation and Installation\" Stage of the cyber kill chain? (Select all that are applicable).</span>",
+    "answers": [
+      { "correct": false, "answer_text": "Insider Breach" },
+      { "correct": false, "answer_text": "Malware Infection" },
+      { "correct": true, "answer_text": "Distributed Denial Of Service" },
+      {
+        "correct": true,
+        "answer_text": "Distributed Denial Of Service Diversion"
+      },
+      { "correct": false, "answer_text": "Port Scanning Activity" },
+      { "correct": true, "answer_text": "Unauthorized Privilege Escalation" },
+      { "correct": true, "answer_text": "Unauthorized Access" },
+      { "correct": false, "answer_text": "Destructive Attack" },
+      { "correct": true, "answer_text": "False Alarms" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p><span>Is the following statement true or false?</span></p>\n<p><i><span>\u201cWhen directly quoting from a source you should include the quote in quotation marks and provide in-text references\u201d.</span></i></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>When should you include in-text referencing? (Select all that are applicable).</span>",
+    "answers": [
+      { "correct": true, "answer_text": "When using some-else ideas" },
+      {
+        "correct": false,
+        "answer_text": "When providing your personal opinion"
+      },
+      {
+        "correct": true,
+        "answer_text": "When including facts (e.g. statistics)"
+      },
+      {
+        "correct": true,
+        "answer_text": "When paraphrasing points from a source"
+      },
+      {
+        "correct": true,
+        "answer_text": "When including direct quotes from a source"
+      }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p><span>Is the following statement true or false?</span></p>\n<p><i><span>\u201cEntries in a Reference List should be placed in alphabetical order in APA6th\u201d</span></i></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<span>You use a direct quote from a source (e.g. Book) in your report. How would you write the in-text citation in APA 6th referencing format?</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "author\u2019s full name, year, page number i.e. (David Lowe, 2022, pp. 10-12)"
+      },
+      {
+        "correct": true,
+        "answer_text": "author\u2019s last name, year, page number i.e. (Lowe, 2022, pp. 10-12)"
+      },
+      {
+        "correct": false,
+        "answer_text": "author\u2019s full name, year i.e. (David Lowe, 2022)"
+      },
+      {
+        "correct": false,
+        "answer_text": "author\u2019s last name, page number i.e. (Lowe, pp. 10-12)"
+      },
+      {
+        "correct": false,
+        "answer_text": "author\u2019s last name, title i.e. (Lowe, \u201cReferencing and Writing\u201d)"
+      },
+      {
+        "correct": false,
+        "answer_text": "author\u2019s last name, year i.e. (Lowe, 2022)"
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>When you include a quote that is more than 40 words what do you need to do? (Select all that are applicable).</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Include quotation marks to show the exact words."
+      },
+      { "correct": true, "answer_text": "Omit the quotation marks." },
+      {
+        "correct": true,
+        "answer_text": "Begin quoting the material on a new line and indent it five spaces."
+      },
+      {
+        "correct": true,
+        "answer_text": "Make sure the quote is exactly as it was published."
+      },
+      {
+        "correct": true,
+        "answer_text": "Include the author\u2019s details, year of publication (if available) and page numbers."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<span>When the publication year is not available what would you include in place of the publication year in your reference?</span>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Indicate the source has no date by using the abbreviation n.d. to indicate \u2018not dated\u2019 i.e. (Lowe, n.d.)."
+      },
+      {
+        "correct": false,
+        "answer_text": "Nothing i.e. your reference would only include the author\u2019s last name (Lowe)."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<span>When the author\u2019s details are not available what information should you use in its place when providing a reference?</span>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Include the title of the source (or an abbreviated version if the title is long) in place of the author\u2019s name i.e. (\u201cWriting and Referencing\u201d, 2022)"
+      },
+      {
+        "correct": false,
+        "answer_text": "Nothing i.e. your reference would only include the year of publication (2022)."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<span>When directly quoting if there are no page numbers what should you do?</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Include paragraph numbers by using the numbers provided or count the paragraph numbers if not visible i.e. (Lowe, 2022, para. 3)."
+      },
+      {
+        "correct": false,
+        "answer_text": "Leave it blank i.e. leave out the page numbers"
+      },
+      { "correct": true, "answer_text": "Option B and C are both correct." },
+      {
+        "correct": false,
+        "answer_text": "Include a section heading and paragraph number i.e. (Lowe, 2022, Introduction, para. 3)."
+      }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p><span>Is the following statement true or false?</span></p>\n<p><i><span>\u201cIf I include an in-text reference in the body of my report the reader should be able to match it to a reference in my reference list using the author\u2019s name and year of publication I have provided\u201d.</span></i></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p><span>Is the following statement true or false?</span></p>\n<p><i><span>\u201cAll the references in my reference list do not need to be only for sources I have used in the body of my report\u201d</span></i></p>",
+    "answers": [
+      { "correct": false, "answer_text": "True" },
+      { "correct": true, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>When you have multiple sources that have the same author and year of publication what should you do? (Select all that are applicable).</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Nothing, the reader doesn\u2019t need to be able to distinguish between the references since they are all by the author."
+      },
+      {
+        "correct": true,
+        "answer_text": "If the author and year of publication are the same, alphabetise the references by the title."
+      },
+      { "correct": false, "answer_text": "None of these options are correct." },
+      {
+        "correct": true,
+        "answer_text": "Add a lower case letter after the year of publication i.e. (Lowe, 2022a), (Lowe, 2022b) etc."
+      }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which of the following are typical approaches taken to sourcing IT talent? (Select all that apply).",
+    "answers": [
+      { "correct": true, "answer_text": "Using a recruitment company" },
+      { "correct": false, "answer_text": "Searching for people on google" },
+      { "correct": true, "answer_text": "Outsourcing to specialist companies" },
+      { "correct": true, "answer_text": "Direct recruitment" },
+      { "correct": true, "answer_text": "Contracting a consulting company" },
+      { "correct": false, "answer_text": "Asking your friends" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a> what are some characteristics of an effective project team? (Select all that apply).",
+    "answers": [
+      { "correct": true, "answer_text": "High Performance" },
+      {
+        "correct": false,
+        "answer_text": "Low Commitment to Project Objectives"
+      },
+      { "correct": true, "answer_text": "Team Members Highly Interdependent" },
+      { "correct": false, "answer_text": "Conflict Avoided at All Costs" },
+      { "correct": true, "answer_text": "High Energy Levels and Enthusiasm" },
+      {
+        "correct": true,
+        "answer_text": "High Interest in the Team and Team Processes"
+      },
+      { "correct": false, "answer_text": "Lethargic/Unresponsive" },
+      { "correct": true, "answer_text": "High Trust Levels" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p>According to the reading <a class=\"inline_disabled\" href=\"https://www.projectmanager.com/it-project-management\" target=\"_blank\">(The Ultimate Guide to IT Project Management)</a> is the following statement true or false?</p>\n<p><em>\"An information technology (IT) project is a type of project that deals with IT infrastructure, information systems or computers.\"</em></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p>As per the reading <a class=\"inline_disabled\" href=\"https://www.smartsheet.com/content-center/best-practices/project-management/project-management-guide/project-management-IT\" target=\"_blank\">(IT Project Management)</a>, is the following statement true or false?</p>\n<p><em>\"The adaptive lifecycle style of Agile Methodologies has the flexibility to condense timelines into shorter activity bursts\".</em></p>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p>As per the reading (<a class=\"inline_disabled\" href=\"https://fortegrp.com/top-software-development-models/\" target=\"_blank\">Top 6 software development models and how they influence the SDLC)</a> is the following statement true or false?</p>\n<p>The DevOps SDLC model is <em>\"built around the principles of collaboration and automation as well as reduce the interaction between technical departments and managers</em>\".</p>",
+    "answers": [
+      { "correct": false, "answer_text": "True" },
+      { "correct": true, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "The reading <a class=\"inline_disabled\" href=\"https://www.managementstudyguide.com/information-technology-and-business-alignment.htm\" target=\"_blank\">(Information Technology and Business Alignment: Why it is Important)</a> discusses 6 critical characteristics that an organisation can do to ensure IT Business Alignment. The first step is <em>\"realising and recognising that organisations can use IT as a transformative tool\"</em>. Is this statement true or false?",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "As per the reading <a class=\"inline_disabled\" href=\"https://www.guru99.com/compare-waterfall-vs-incremental-vs-spiral-vs-rad.html\" target=\"_blank\">(Waterfall vs. Incremental vs. Spiral vs. Rad Model: Key Difference)</a> which SDLC model does <strong><span style=\"text-decoration: underline;\">not</span></strong> allow you to return to an earlier phase when implemented?",
+    "answers": [
+      { "correct": false, "answer_text": "Spiral model" },
+      { "correct": true, "answer_text": "Waterfall model" },
+      { "correct": false, "answer_text": "Incremental model" },
+      { "correct": false, "answer_text": "Agile model" },
+      { "correct": false, "answer_text": "DevOps model" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<p>The reading <a class=\"inline_disabled\" href=\"https://www.guru99.com/compare-waterfall-vs-incremental-vs-spiral-vs-rad.html\" target=\"_blank\">(Waterfall vs. Incremental vs. Spiral vs. Rad Model: Key Difference)</a> identifies two SDLC models as <strong><span style=\"text-decoration: underline;\">not</span></strong> appropriate for handling large projects and need requirements to be defined at the beginning of the project.</p>\n<p>Which of the following options correctly identifies these two models? (Select all that are applicable).</p>",
+    "answers": [
+      { "correct": true, "answer_text": "Incremental model" },
+      { "correct": false, "answer_text": "DevOps model" },
+      { "correct": true, "answer_text": "Waterfall model" },
+      { "correct": false, "answer_text": "Spiral model" },
+      { "correct": false, "answer_text": "RAD model" }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.guru99.com/compare-waterfall-vs-incremental-vs-spiral-vs-rad.html\" target=\"_blank\">(Waterfall vs. Incremental vs. Spiral vs. Rad Model: Key Difference)</a> is the following statement true or false? <em>\"The incremental SDLC model framework type is a combination of linear and iterative hence its objective is rapid development and promotes maintainability, but only requires user involvement only at the beginning\".</em>",
+    "answers": [
+      { "correct": false, "answer_text": "True" },
+      { "correct": true, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>When using sources to gather information to use in your work, which of the following things should you&nbsp;</span><span><strong><span style=\"text-decoration: underline;\">DEFINITELY</span>&nbsp;</strong></span><span>do? (Select all that are applicable)</span>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Assess the sources you find using the R.E.V.I.E.W criteria before you use them in your work"
+      },
+      {
+        "correct": true,
+        "answer_text": "Put all the sources you used throughout your work in the reference list"
+      },
+      {
+        "correct": true,
+        "answer_text": "Include in-text references for any ideas that are not your own"
+      },
+      { "correct": true, "answer_text": "Use trustworthy sources" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Based on the <em>Week 8 lecture 'Testing Management'&nbsp;</em>what is the purpose of 'Stress Testing'?",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Stressing the system to breaking point to determine  whether the breakdown is potentially harmful."
+      },
+      {
+        "correct": false,
+        "answer_text": "Modelling the expected usage of a software  program by simulating multiple users accessing  the program concurrently."
+      },
+      {
+        "correct": false,
+        "answer_text": "Exposing problems such as memory leaks or  stack overflows."
+      },
+      { "correct": false, "answer_text": "None of the options are correct." }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "Based on the&nbsp;<em>Week 8 lecture 'Testing Management'&nbsp;</em>match the definitions and descriptions to the correct test type.",
+    "answers": [
+      {
+        "text": "To ensure that each component behaves  \u2018correctly\u2019.",
+        "matching": "Component Test"
+      },
+      {
+        "text": "To ensure that the user requirements  have been met.",
+        "matching": "System Test"
+      },
+      {
+        "text": "To test system performance under maximum expected load.",
+        "matching": "Performance Test"
+      },
+      {
+        "text": "To ensure that system is stable over extended period.",
+        "matching": "Soak/Stress Test"
+      },
+      {
+        "text": "To test interaction between related components.",
+        "matching": "Integration Test"
+      },
+      {
+        "text": "Compares system functionality against agreed-on user requirements",
+        "matching": "Acceptance Test"
+      },
+      {
+        "text": "Carried out by client using scenarios, supervised by developer",
+        "matching": "Acceptance Test"
+      },
+      {
+        "text": "Focuses on interfaces between components.",
+        "matching": "Integration Test"
+      },
+      {
+        "text": "Simulates key processes under maximum load.",
+        "matching": "Performance Test"
+      },
+      {
+        "text": "Focuses on usual business processes, and normal workflow.",
+        "matching": "System Test"
+      },
+      {
+        "text": "Load increased until system fails. Checks effects of over-load.",
+        "matching": "Soak/Stress Test"
+      },
+      {
+        "text": "Uses white-box testing to check each program function fully.",
+        "matching": "Component Test"
+      }
+    ],
+    "matching_list": [
+      "Integration Test",
+      "Performance Test",
+      "Acceptance Test",
+      "Component Test",
+      "System Test",
+      "Soak/Stress Test"
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Based on the&nbsp;<em>Week 8 lecture 'Testing Management'&nbsp;</em>what are some problems of testing?&nbsp;",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Performance testing had not anticipated the level of user load."
+      },
+      {
+        "correct": false,
+        "answer_text": "The functionality of the system had been tested, but not under load."
+      },
+      {
+        "correct": false,
+        "answer_text": "Nobody knew that the system would fail completely under pressure."
+      },
+      { "correct": true, "answer_text": "All options are correct" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Based on the&nbsp;<em>Week 10 Lecture - Communication,</em> what two things can help make writing clear?",
+    "answers": [
+      { "correct": false, "answer_text": "Paragraphs" },
+      { "correct": true, "answer_text": "Cohesion" },
+      { "correct": true, "answer_text": "Structure" },
+      { "correct": false, "answer_text": "Long Sentences" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the&nbsp;</span><em>Week 10 Lecture - Communication,</em><span>&nbsp;what are the characteristics of professional writing?</span>",
+    "answers": [
+      { "correct": false, "answer_text": "Author's Qualifications" },
+      { "correct": true, "answer_text": "Objectivity" },
+      { "correct": true, "answer_text": "Precision" },
+      { "correct": false, "answer_text": "Referencing Sources" },
+      { "correct": true, "answer_text": "Brevity" },
+      { "correct": true, "answer_text": "Clarity" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "<span>Based on the&nbsp;</span><em>Week 10 Lecture - Communication,</em><span> what are the '3Cs'?</span>",
+    "answers": [
+      { "correct": true, "answer_text": "Consistency" },
+      { "correct": false, "answer_text": "Critical" },
+      { "correct": true, "answer_text": "Coherence" },
+      { "correct": true, "answer_text": "Clarity" },
+      { "correct": false, "answer_text": "Context" },
+      { "correct": false, "answer_text": "Cohesion" },
+      { "correct": false, "answer_text": "Content" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "A profession is:",
+    "answers": [
+      { "correct": false, "answer_text": "Any job that you might do" },
+      { "correct": false, "answer_text": "A job that pays well" },
+      {
+        "correct": false,
+        "answer_text": "An occupation that is recognised by the government for the purposes of immigration"
+      },
+      {
+        "correct": true,
+        "answer_text": "An occupation that will typically require formal training and a qualification"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "Business value is:",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Anything that contributes to the overall health and success of an organisation"
+      },
+      {
+        "correct": false,
+        "answer_text": "Anything that contributes to the assets of a company"
+      },
+      {
+        "correct": false,
+        "answer_text": "The specific goodwill felt by stakeholders in an organisation"
+      },
+      {
+        "correct": false,
+        "answer_text": "Anything that increases the share price of an organisation"
+      }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<span>IT workers typically focus on providing supporting infrastructure, and usually aren't responsible for driving change at an organizational level.</span>",
+    "answers": [
+      { "correct": false, "answer_text": "True" },
+      { "correct": true, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<span>Whilst workers across most enterprises are becoming more tech-savvy, workers in the IT department:</span>",
+    "answers": [
+      {
+        "correct": false,
+        "answer_text": "Shouldn't spend valuable time trying to understand marketing, as this isn't their role."
+      },
+      {
+        "correct": true,
+        "answer_text": "Should understand the nuances of marketing, as this helps them understand value in the organisation"
+      }
+    ]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<span data-sheets-value=\"{&quot;1&quot;:2,&quot;2&quot;:&quot;As per the reading is the following statement 'True' or 'False'? \u201cEven though the importance of the communication management knowledge area is highlighted and stressed by most stakeholders, the communication practices and procedures that are part of the organisation\u2019s project management methodology are not given precedence or adhered to by the project managers\u201d.&quot;}\" data-sheets-userformat=\"{&quot;2&quot;:4993,&quot;3&quot;:{&quot;1&quot;:0},&quot;10&quot;:1,&quot;11&quot;:4,&quot;12&quot;:0,&quot;15&quot;:&quot;Cambria&quot;}\" data-sheets-textstyleruns=\"{&quot;1&quot;:0}\uee10[null,46,{&quot;5&quot;:1,&quot;6&quot;:1}]\uee10[null,52,{&quot;5&quot;:1}]\uee10{&quot;1&quot;:53}\uee10[null,56,{&quot;5&quot;:1,&quot;6&quot;:1}]\uee10{&quot;1&quot;:63}\uee10[null,65,{&quot;5&quot;:1,&quot;6&quot;:1}]\">As per the reading is the following statement '<em><strong>True</strong></em>' or '<em><strong>False</strong></em>'? \u201c<em><strong>Even though the importance of the communication management knowledge area is highlighted and stressed by most stakeholders, the communication practices and procedures that are part of the organisation\u2019s project management methodology are not given precedence or adhered to by the project managers</strong></em>\u201d.</span>",
+    "answers": [
+      { "correct": true, "answer_text": "True" },
+      { "correct": false, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which of the following are not typical activities of IT Careers? (Select all that apply)",
+    "answers": [
+      { "correct": false, "answer_text": "Service Management" },
+      { "correct": false, "answer_text": "Business Analysis" },
+      { "correct": false, "answer_text": "User Experience (UX)" },
+      { "correct": true, "answer_text": "Procurement" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Which of the following careers were not very common prior to the 2000s? (Select all that apply)",
+    "answers": [
+      { "correct": false, "answer_text": "Voice Telephony" },
+      { "correct": true, "answer_text": "Millennial Expert" },
+      { "correct": false, "answer_text": "Flash Developer" },
+      { "correct": true, "answer_text": "App Developer" },
+      { "correct": true, "answer_text": "Chief Listening Officer" }
+    ]
+  },
+  {
+    "type": "matching_question",
+    "text": "Match the technology to the year that is was released.",
+    "answers": [
+      { "text": "4G Networks", "matching": "2008" },
+      { "text": "Twitter", "matching": "2006" },
+      { "text": "iPhone", "matching": "2007" },
+      { "text": "Raspberry Pi", "matching": "2012" },
+      { "text": "5G Networks", "matching": "2019" },
+      { "text": "BitCoin", "matching": "2009" },
+      { "text": "Google Maps", "matching": "2005" }
+    ],
+    "matching_list": ["2007", "2006", "2008", "2005", "2012", "2009", "2019"]
+  },
+  {
+    "type": "true_false_question",
+    "text": "<p>Is the following statement true or false?</p>\n<p><em>\"IT provides value to an organisation by making everyone's work easier\"</em></p>",
+    "answers": [
+      { "correct": false, "answer_text": "True" },
+      { "correct": true, "answer_text": "False" }
+    ]
+  },
+  {
+    "type": "multiple_answers_question",
+    "text": "Stakeholders in a supermarket would be? (Select all that apply)",
+    "answers": [
+      { "correct": true, "answer_text": "Customers" },
+      { "correct": true, "answer_text": "Shareholders" },
+      { "correct": true, "answer_text": "Suppliers" },
+      { "correct": true, "answer_text": "Employees" }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "If your company is digitising products, channels or operations, your value story be how IT _________________.",
+    "answers": [
+      { "correct": true, "answer_text": "Supports digital innovation" },
+      { "correct": false, "answer_text": "Successfully controls costs" },
+      { "correct": false, "answer_text": "Secures information assets" },
+      {
+        "correct": false,
+        "answer_text": "Creates a next generation IT workforce"
+      }
+    ]
+  }
+]

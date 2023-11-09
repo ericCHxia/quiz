@@ -1,59 +1,34 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang="ts">
+	import MultipleChoice from './MultipleChoice.svelte';
+	import MultipleAnswer from './MultipleAnswer.svelte';
+	import Matching from './Matching.svelte';
+	import MultipleDropdowns from './MultipleDropdowns.svelte';
+	import { page } from '$app/stores';
+	import type { QuestionData } from '$lib/item';
+	import { onMount } from 'svelte';
+
+	const n = parseInt($page.url.searchParams.get('n') ?? '0');
+	let q: QuestionData[] = [];
+	let data: QuestionData | null = null;
+	onMount(async () => {
+		q = await (await fetch('/quiz.json')).json();
+		if (n < 0 || n >= q.length) {
+			window.location.href = '/';
+		}
+		data = q[n];
+	});
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
-
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+<div class="lg:border-2 lg:border-gray-200 p-4 rounded-lg">
+	{#if data}
+		{#if data.type === 'multiple_choice_question' || data.type === 'true_false_question'}
+			<MultipleChoice {data} {n} />
+		{:else if data.type === 'multiple_answers_question'}
+			<MultipleAnswer {data} {n} />
+		{:else if data.type === 'matching_question'}
+			<Matching {data} {n} />
+		{:else if data.type === 'multiple_dropdowns_question'}
+			<MultipleDropdowns {data} {n} />
+		{/if}
+	{/if}
+</div>
