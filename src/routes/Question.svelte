@@ -3,6 +3,8 @@
 	import { n, correctList } from '../store';
 	import Model from '$lib/Model.svelte';
 	import AnswerResult from './AnswerResult.svelte';
+	import Icon from '@iconify/svelte';
+	import table20Regular from '@iconify/icons-fluent/table-20-regular';
 
 	const dispatch = createEventDispatcher();
 	function submit() {
@@ -11,7 +13,7 @@
 
 	export let correct = false;
 	export let submitted = false;
-	let open=false;
+	let open = false;
 
 	function next() {
 		$n += 1;
@@ -21,7 +23,8 @@
 		$n -= 1;
 	}
 </script>
-<Model bind:open={open}>
+
+<Model bind:open>
 	<AnswerResult />
 </Model>
 <div class="grid grid-cols-1 content-between h-full">
@@ -48,9 +51,9 @@
 			{/if}
 		{/if}
 	</div>
-	<div class="mt-4 grid-cols-3 grid gap-1 md:grid-cols-none md:flex md:justify-end">
+	<div class="mt-4 grid-cols-7 grid gap-1 md:grid-cols-none md:flex md:justify-end">
 		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden"
+			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden col-span-3"
 			on:click={previous}
 			disabled={$n == 0}
 		>
@@ -58,14 +61,14 @@
 		</button>
 
 		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden"
-			on:click={() => open = true}
+			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden flex justify-center"
+			on:click={() => (open = true)}
 		>
-			Show
+			<Icon icon={table20Regular} width="24"/>
 		</button>
 
 		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden"
+			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden col-span-3"
 			on:click={next}
 			disabled={$n == $correctList.length - 1}
 		>
@@ -81,7 +84,7 @@
 			</button>
 		{:else}
 			<button
-				class="btn py-2 text-white bg-indigo-600 hover:bg-indigo-700 col-span-3"
+				class="btn py-2 text-white bg-indigo-600 hover:bg-indigo-700 col-span-full"
 				on:click={submit}
 			>
 				Submit

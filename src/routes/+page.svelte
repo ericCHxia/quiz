@@ -9,18 +9,11 @@
 	import { goto } from '$app/navigation';
 	import { n, correctList } from '../store';
 	import AnswerResult from './AnswerResult.svelte';
-	$n = parseInt($page.url.searchParams.get('n') ?? '0');
-
 	let q: QuestionData[] = [];
 	onMount(async () => {
-		n.subscribe((v) => {
-			const url = new URL(window.location.href);
-			url.searchParams.set('n', `${v}`);
-			goto(url.href);
-		});
 		q = await (await fetch('/quiz.json')).json();
 		if ($n < 0 || $n >= q.length) {
-			window.location.href = '/';
+			$n = 0;
 		}
 		correctList.set(Array(q.length).fill(-1));
 	});
