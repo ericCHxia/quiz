@@ -25,21 +25,29 @@
 	<div slot="description">
 		{@html data.text}
 	</div>
-	<div class="mt-4 grid sm:grid-cols-4 grid-cols-1 text-sm items-center sm:gap-x-2 gap-1">
+	<div class="mt-4 grid sm:grid-cols-4 grid-cols-1 text-base sm:text-sm items-center sm:gap-x-2 gap-1">
 		{#each data.answers as answer, index}
 			<div>
 				{answer.text}
 			</div>
 			<div class="sm:col-span-3">
 				<Select {items} bind:value={answers[index]} />
-				{#if submitted}
-					{#if !correct[index]}
-						<div>
-							<span class="text-red-500">Incorrect</span> - {data.answers[index].matching}
-						</div>
-					{/if}
-				{/if}
 			</div>
+			{#if submitted}
+			<div class="hidden sm:block" />
+				{#if !correct[index]}
+					<div class="sm:col-span-3">
+						<p class="text-red-500">Incorrect</p>
+						<p class="text-gray-500">Correct answer: {data.answers[index].matching}</p>
+					</div>
+				{:else}
+					<div class="text-green-500 sm:col-span-3">
+						Correct
+					</div>
+				{/if}
+			{/if}
 		{/each}
 	</div>
+	<div slot="correct" />
+	<div slot="incorrect" />
 </Question>
