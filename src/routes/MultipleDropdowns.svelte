@@ -3,9 +3,9 @@
 	import { mulberry32 } from '$lib/utils';
 	import Question from './Question.svelte';
 	import type { DropDownData } from '$lib/item';
-	import { seed } from '../store';
+	import { seed, correctList, n, status } from '../store';
 	export let data: DropDownData;
-	export let answers = Array(data.answers.length).fill(0);
+	export let answers = Array(data.answers.length).fill('');
 	let question: HTMLDivElement;
 	onMount(() => {
 		const question_inputs = question.querySelectorAll('.question_input');
@@ -40,10 +40,16 @@
 		for (let i = 0; i < question_inputs.length; i++) {
 			question_inputs[i].setAttribute('disabled', 'true');
 		}
+		$correctList[$n] = correct.every((c) => c) ? 1 : 0;
+		$status[$n] = answers;
+	}
+	if ($correctList[$n] != -1) {
+		answers = $status[$n] as string[];
+		submit();
 	}
 </script>
 
-<Question on:next on:previous on:submit={submit} correct={correct.every((c) => c)} {submitted}>
+<Question on:submit={submit} correct={correct.every((c) => c)} {submitted}>
 	<div slot="description" bind:this={question}>
 		{@html data.text}
 	</div>

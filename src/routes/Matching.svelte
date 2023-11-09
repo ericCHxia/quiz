@@ -3,10 +3,9 @@
 	import Question from './Question.svelte';
 	import type { MatchingData } from '$lib/item';
 	import { mulberry32 } from '$lib/utils';
-	import { seed } from '../store';
+	import { seed, correctList, n, status } from '../store';
 
 	export let data: MatchingData;
-
 	let answers = Array(data.answers.length).fill(0);
 	let items = ['[Select]', ...data.matching_list].map((answer, index) => ({
 		label: answer,
@@ -16,15 +15,25 @@
 	items = [items[0], ...items.slice(1).sort(() => random() - 0.5)];
 	let submitted = false;
 	let correct: boolean[] = [];
+	let disabled = false;
+
 	function submit() {
 		submitted = true;
 		correct = answers.map(
 			(answer, index) => data.matching_list[answer - 1] === data.answers[index].matching
 		);
+		$status[$n] = answers;
+		$correctList[$n] = correct.every((c) => c) ? 1 : 0;
+		disabled = true;
+	}
+
+	if ($correctList[$n]!=-1) {
+		answers = $status[$n] as number[];
+		submit();
 	}
 </script>
 
-<Question on:next on:previous on:submit={submit} correct={correct.every((c) => c)} {submitted}>
+<Question on:submit={submit} correct={correct.every((c) => c)} {submitted}>
 	<div slot="description">
 		{@html data.text}
 	</div>
@@ -36,7 +45,7 @@
 				{answer.text}
 			</div>
 			<div class="sm:col-span-3">
-				<Select {items} bind:value={answers[index]} />
+				<Select {disabled} {items} bind:value={answers[index]} />
 			</div>
 			{#if submitted}
 				<div class="hidden sm:block" />

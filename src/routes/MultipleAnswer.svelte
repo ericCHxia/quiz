@@ -3,7 +3,7 @@
 	import Question from './Question.svelte';
 	import type { ChoiceData } from '$lib/item';
 	import { mulberry32 } from '$lib/utils';
-	import { seed } from '../store';
+	import { seed, correctList, n, status } from '../store';
 	export let data: ChoiceData;
 
 	const items = data.answers.map((answer, index) => ({
@@ -22,10 +22,16 @@
 			.filter((answer) => answer.correct)
 			.map((answer) => data.answers.indexOf(answer) + 1);
 		correct = highlight.length === value.length && highlight.every((v) => value.includes(v));
+		$correctList[$n] = correct ? 1 : 0;
+		$status[$n] = value;
+	}
+	if ($correctList[$n] != -1) {
+		value = $status[$n] as number[];
+		submit();
 	}
 </script>
 
-<Question on:next on:previous on:submit={submit} bind:submitted bind:correct>
+<Question on:submit={submit} bind:submitted bind:correct>
 	<div slot="description">
 		{@html data.text}
 	</div>

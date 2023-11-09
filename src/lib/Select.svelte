@@ -8,10 +8,12 @@
 		return item;
 	});
 	export let value: any;
+	export let disabled = false;
 </script>
 
 <select
 	bind:value
+	{disabled}
 	class="block w-full question_input"
 >
 	{#each item_list as item}
