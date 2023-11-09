@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { page } from '$app/stores';
+	import { n } from '../store'
 
 	const dispatch = createEventDispatcher();
 	function submit() {
@@ -9,17 +9,13 @@
 
 	export let correct = false;
 	export let submitted = false;
-	export let n = 0;
+
 	function next() {
-		const url = new URL($page.url.href);
-		url.searchParams.set('n', (n + 1).toString());
-		window.location.href = url.href;
+		dispatch('next');
 	}
 
 	function previous() {
-		const url = new URL($page.url.href);
-		url.searchParams.set('n', (n - 1).toString());
-		window.location.href = url.href;
+		dispatch('previous');
 	}
 </script>
 
@@ -42,7 +38,7 @@
 {/if}
 
 <div class="mt-4 flex justify-end">
-	{#if n > 0}
+	{#if $n > 0}
 		<button
 			class="btn text-white bg-gray-400 hover:bg-gray-500 mr-2"
 			on:click={previous}

@@ -2,6 +2,9 @@
 	import Select from '$lib/Select.svelte';
 	import Question from './Question.svelte';
 	import type { MatchingData } from '$lib/item';
+	import { mulberry32 } from '$lib/utils';
+	import { seed } from '../store';
+
 	export let data: MatchingData;
 
 	let answers = Array(data.answers.length).fill(0);
@@ -9,10 +12,10 @@
 		label: answer,
 		value: index
 	}));
-	items = [items[0], ...items.slice(1).sort(() => Math.random() - 0.5)];
+	const random = mulberry32($seed);
+	items = [items[0], ...items.slice(1).sort(() => random() - 0.5)];
 	let submitted = false;
 	let correct: boolean[] = [];
-	export let n = 0;
 	function submit() {
 		submitted = true;
 		correct = answers.map(
@@ -21,11 +24,13 @@
 	}
 </script>
 
-<Question {n} on:submit={submit} correct={correct.every((c) => c)} {submitted}>
+<Question on:next on:previous on:submit={submit} correct={correct.every((c) => c)} {submitted}>
 	<div slot="description">
 		{@html data.text}
 	</div>
-	<div class="mt-4 grid sm:grid-cols-4 grid-cols-1 text-base sm:text-sm items-center sm:gap-x-2 gap-1">
+	<div
+		class="mt-4 grid sm:grid-cols-4 grid-cols-1 text-base sm:text-sm items-center sm:gap-x-2 gap-1"
+	>
 		{#each data.answers as answer, index}
 			<div>
 				{answer.text}
@@ -34,16 +39,14 @@
 				<Select {items} bind:value={answers[index]} />
 			</div>
 			{#if submitted}
-			<div class="hidden sm:block" />
+				<div class="hidden sm:block" />
 				{#if !correct[index]}
 					<div class="sm:col-span-3">
 						<p class="text-red-500">Incorrect</p>
 						<p class="text-gray-500">Correct answer: {data.answers[index].matching}</p>
 					</div>
 				{:else}
-					<div class="text-green-500 sm:col-span-3">
-						Correct
-					</div>
+					<div class="text-green-500 sm:col-span-3">Correct</div>
 				{/if}
 			{/if}
 		{/each}

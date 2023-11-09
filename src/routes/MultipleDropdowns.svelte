@@ -1,10 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { mulberry32 } from '$lib/utils';
 	import Question from './Question.svelte';
 	import type { DropDownData } from '$lib/item';
+	import { seed } from '../store';
 	export let data: DropDownData;
 	export let answers = Array(data.answers.length).fill(0);
-	export let n = 0;
 	let question: HTMLDivElement;
 	onMount(() => {
 		const question_inputs = question.querySelectorAll('.question_input');
@@ -13,8 +14,9 @@
 				answers[i] = (event.target as HTMLSelectElement)?.value || '';
 			});
 			const options = question_inputs[i].querySelectorAll('option');
+			const random = mulberry32($seed);
 			for (let j = 1; j < options.length; j++) {
-				const random_index = Math.floor(Math.random() * j) + 1;
+				const random_index = Math.floor(random() * j) + 1;
 				[
 					options[j].innerHTML,
 					options[j].value,
@@ -41,7 +43,7 @@
 	}
 </script>
 
-<Question {n} on:submit={submit} correct={correct.every((c) => c)} {submitted}>
+<Question on:next on:previous on:submit={submit} correct={correct.every((c) => c)} {submitted}>
 	<div slot="description" bind:this={question}>
 		{@html data.text}
 	</div>
