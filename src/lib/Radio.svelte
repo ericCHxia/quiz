@@ -2,23 +2,26 @@
 	export let label: string;
 	export let checked: boolean;
 	export let disabled: boolean;
-	export let highlight: boolean=false;
+	export let highlight: boolean = false;
 </script>
 
-<div class="flex items-center">
+<button
+	class={'flex w-full text-left items-center border-2 sm:border-0 py-1 px-2 rounded-lg ' +
+		(highlight ? 'bg-green-500' : '')}
+	{disabled}
+	on:click
+>
 	<input
 		type="radio"
 		class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
 		{disabled}
 		{checked}
-		on:click
 	/>
 	<label
 		for={label}
-		class={'ml-2 px-1 py-1 w-full block text-sm font-medium ' + (highlight
-			? 'bg-green-500 rounded-sm text-white'
-			: 'text-gray-700')}
+		class={'ml-2 w-full block text-base sm:text-sm font-medium ' +
+			(highlight ? 'text-white' : 'text-gray-700')}
 	>
 		{label}
 	</label>
-</div>
+</button>

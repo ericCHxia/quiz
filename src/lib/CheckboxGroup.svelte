@@ -21,7 +21,7 @@
 	}
 </script>
 
-<div class="mt-4 space-y-4">
+<div class="mt-4 space-y-2">
 	{#each item_list as item}
 		<Checkbox
 			label={item.label}

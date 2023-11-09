@@ -15,6 +15,12 @@
 
 <div class="mt-4 space-y-2">
 	{#each item_list as item}
-			<Radio label={item.label} checked={value === item.value} disabled={disabled} on:click={() => value = item.value} highlight={highlight.includes(item.value)}/>
+		<Radio
+			label={item.label}
+			checked={value === item.value}
+			{disabled}
+			on:click={() => (value = item.value)}
+			highlight={highlight.includes(item.value)}
+		/>
 	{/each}
 </div>

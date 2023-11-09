@@ -23,7 +23,7 @@
 	}
 </script>
 
-<div class="font-medium text-sm">
+<div class="font-medium text-base sm:text-sm">
 	<slot name="description" />
 </div>
 
