@@ -3,7 +3,7 @@
 	import { mulberry32 } from '$lib/utils';
 	import Question from './Question.svelte';
 	import type { DropDownData } from '$lib/item';
-	import { seed, correctList, n, status } from '../store';
+	import { seed, correctList, n, status } from '../../store';
 	export let data: DropDownData;
 	export let answers = Array(data.answers.length).fill('');
 	let question: HTMLDivElement;

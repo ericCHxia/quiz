@@ -2,11 +2,11 @@
 	import RadioGroup from '$lib/RadioGroup.svelte';
 	import Question from './Question.svelte';
 	import type { ChoiceData } from '$lib/item';
-	import { seed, correctList, n, status } from '../store';
+	import { seed, correctList, n, status } from '../../store';
 	import { mulberry32 } from '$lib/utils';
 
 	export let data: ChoiceData;
-
+	
 	let items = data.answers.map((answer, index) => ({
 		label: answer.answer_text,
 		value: index + 1
@@ -19,7 +19,7 @@
 	let correct = false;
 	function submit() {
 		submitted = true;
-		correct = data.answers[value - 1].correct;
+		correct = value > 0 ? data.answers[value - 1].correct: false;
 		highlight = [data.answers.findIndex((answer) => answer.correct) + 1];
 		$correctList[$n] = correct ? 1 : 0;
 		$status[$n] = value;

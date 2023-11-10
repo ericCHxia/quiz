@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { correctList, n } from '../store';
+	import { correctList, n } from '../../store';
 	function to_color(correct: number) {
 		if (correct == -1) return 'bg-gray-100';
 		if (correct == 1) return 'bg-green-400';

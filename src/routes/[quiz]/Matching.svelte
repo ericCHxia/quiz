@@ -3,7 +3,7 @@
 	import Question from './Question.svelte';
 	import type { MatchingData } from '$lib/item';
 	import { mulberry32 } from '$lib/utils';
-	import { seed, correctList, n, status } from '../store';
+	import { seed, correctList, n, status } from '../../store';
 
 	export let data: MatchingData;
 	let answers = Array(data.answers.length).fill(0);

@@ -1,44 +1,30 @@
 <script lang="ts">
-	import MultipleChoice from './MultipleChoice.svelte';
-	import MultipleAnswer from './MultipleAnswer.svelte';
-	import Matching from './Matching.svelte';
-	import MultipleDropdowns from './MultipleDropdowns.svelte';
-	import { page } from '$app/stores';
-	import type { QuestionData } from '$lib/item';
-	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
-	import { n, correctList } from '../store';
-	import AnswerResult from './AnswerResult.svelte';
-	let q: QuestionData[] = [];
-	onMount(async () => {
-		q = await (await fetch('/quiz.json')).json();
-		if ($n < 0 || $n >= q.length) {
-			$n = 0;
-		}
-		correctList.set(Array(q.length).fill(-1));
+	import { page } from "$app/stores";
+	import Select from "$lib/Select.svelte";
+	interface Quiz {
+		short: string;
+		name: string;
+	}
+	const quiz:Quiz[] = $page.data.quiz;
+	const items = quiz.map((q) => {
+		return { value: q.short, label: q.name };
 	});
+	let value: string=quiz[0].short;
 </script>
 
 <div class="flex mx-auto">
-	{#each q as data, index}
-		{#if index === $n}
-			<div class="md:border-2 md:border-gray-200 p-4 rounded-lg max-w-screen-md mx-auto">
-				{#if data}
-					{#if data.type === 'multiple_choice_question' || data.type === 'true_false_question'}
-						<MultipleChoice {data} />
-					{:else if data.type === 'multiple_answers_question'}
-						<MultipleAnswer {data} />
-					{:else if data.type === 'matching_question'}
-						<Matching {data} />
-					{:else if data.type === 'multiple_dropdowns_question'}
-						<MultipleDropdowns {data} />
-					{/if}
-				{/if}
+	<div class="md:border-2 md:border-gray-200 p-4 rounded-lg max-w-screen-md mx-auto">
+		<div class="flex flex-col space-y-2">
+			<div class="flex-grow">
+				<p class="text-lg font-bold sm:text-base">Quiz</p>
+				<Select items={items} bind:value={value} />
 			</div>
-		{/if}
-	{/each}
-	<div class="hidden md:block md:ml-2 md:min-w-fit">
-		<AnswerResult />
+			<div class="flex-grow sm:self-end">
+				<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto">
+					<a href="/{encodeURIComponent(value)}">Start</a>
+				</button>
+			</div>
+		</div>
 	</div>
 </div>
 

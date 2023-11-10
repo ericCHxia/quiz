@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { n, correctList } from '../store';
+	import { n, correctList } from '../../store';
 	import Model from '$lib/Model.svelte';
 	import AnswerResult from './AnswerResult.svelte';
 	import Icon from '@iconify/svelte';

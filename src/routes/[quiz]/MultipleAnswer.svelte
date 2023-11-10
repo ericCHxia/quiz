@@ -3,7 +3,7 @@
 	import Question from './Question.svelte';
 	import type { ChoiceData } from '$lib/item';
 	import { mulberry32 } from '$lib/utils';
-	import { seed, correctList, n, status } from '../store';
+	import { seed, correctList, n, status } from '../../store';
 	export let data: ChoiceData;
 
 	const items = data.answers.map((answer, index) => ({

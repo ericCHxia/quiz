@@ -1,6 +1,6 @@
 export type Item = {
 	label: string;
-	value: any;
+	value: string|number;
 };
 
 export type ItemList = Item[] | string[];
