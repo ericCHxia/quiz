@@ -51,38 +51,40 @@
 			{/if}
 		{/if}
 	</div>
-	<div class="mt-4 grid-cols-7 grid gap-1 md:grid-cols-none md:flex md:justify-end">
-		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden col-span-3"
-			on:click={previous}
-			disabled={$n == 0}
-		>
-			Previous
-		</button>
-
-		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden flex justify-center"
-			on:click={() => (open = true)}
-		>
-			<Icon icon={table20Regular} width="24"/>
-		</button>
-
-		<button
-			class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 md:hidden col-span-3"
-			on:click={next}
-			disabled={$n == $correctList.length - 1}
-		>
-			Next
-		</button>
-		{#if submitted}
+	<div class="mt-4 flex flex-col gap-1 md:flex-row md:justify-end">
+		<div class="flex gap-1 md:hidden">
 			<button
-				class="hidden md:block btn py-2 text-white bg-gray-400 hover:bg-gray-500"
+				class="btn flex-1 grow py-2 text-white bg-gray-400 hover:bg-gray-500"
+				on:click={previous}
+				disabled={$n == 0}
+			>
+				Previous
+			</button>
+
+			<button
+				class="btn py-2 text-white bg-gray-400 hover:bg-gray-500 flex justify-center"
+				on:click={() => (open = true)}
+			>
+				<Icon icon={table20Regular} width="24" />
+			</button>
+
+			<button
+				class="btn flex-1 grow py-2 text-white bg-gray-400 hover:bg-gray-500"
 				on:click={next}
 				disabled={$n == $correctList.length - 1}
 			>
 				Next
 			</button>
-		{:else}
+		</div>
+
+		{#if submitted && $n < $correctList.length - 1}
+			<button
+				class="hidden md:block btn py-2 text-white bg-gray-400 hover:bg-gray-500"
+				on:click={next}
+			>
+				Next
+			</button>
+		{:else if !submitted}
 			<button
 				class="btn py-2 text-white bg-indigo-600 hover:bg-indigo-700 col-span-full"
 				on:click={submit}
