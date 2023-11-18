@@ -1,1 +1,272 @@
-[{"type": "multiple_answers_question", "text": "<span>Which of the following are typical approaches taken to sourcing IT talent? (Select all that apply).</span>", "answers": [{"correct": false, "answer_text": "Asking your friends"}, {"correct": true, "answer_text": "Using a recruitment company"}, {"correct": false, "answer_text": "Searching for people on google"}, {"correct": true, "answer_text": "Direct recruitment"}, {"correct": true, "answer_text": "Contracting a consulting company"}, {"correct": true, "answer_text": "Outsourcing to specialist companies"}]}, {"type": "multiple_answers_question", "text": "<div id=\"question_2347438_question_text\" class=\"question_text user_content enhanced\">Deloitte research has identified a number of key approaches to attracting and retaining expert staff. Select the top three reasons that were identified.</div>\n  <div class=\"answers\">\n  <div class=\"answers_wrapper\">\n  <div id=\"answer_1444\" class=\"answer answer_for_                                                   correct_answer hover\" title=\"Adjust rewards depending on performance. This was the correct answer.\" aria-describedby=\"answer_1444_arrow\"><span id=\"answer_1444_arrow\" class=\"answer_arrow info\">Correct Answer</span></div>\n  </div>\n  </div>", "answers": [{"correct": true, "answer_text": null}, {"correct": true, "answer_text": "Provide career flexibility"}, {"correct": true, "answer_text": "Offering mentoring for staff"}, {"correct": false, "answer_text": "Be recognised as a good employer"}, {"correct": false, "answer_text": "Allow employers to have dinner with the boss"}, {"correct": false, "answer_text": "Offer fast-track career pathways"}, {"correct": true, "answer_text": "Adjust rewards depending on performance"}]}, {"type": "multiple_choice_question", "text": "<span>Which of the following is the greatest obstacle to the success of most major change projects.</span>", "answers": [{"correct": false, "answer_text": "Cost increases"}, {"correct": false, "answer_text": "Speed limits"}, {"correct": true, "answer_text": "People resistance"}, {"correct": false, "answer_text": "Software bugs"}, {"correct": false, "answer_text": "Changing requirements"}, {"correct": false, "answer_text": "Time constraints"}]}, {"type": "matching_question", "text": "<span>Match the group of people with the role they play in supporting management of change.</span>", "answers": [{"text": "Senior Management", "matching": "Sponsoring change"}, {"text": "Supervisors", "matching": "Coaching the people who report to them"}, {"text": "Change managers", "matching": "Applying a structured approach"}, {"text": "Project team", "matching": "Integrating the people side of change"}, {"text": "Support people", "matching": "Providing expertise"}], "matching_list": ["Providing expertise", "Undertaking testing", "Providing support", "Writing code", "Coaching the people who report to them", "Applying a structured approach", "Integrating the people side of change", "Sponsoring change"]}, {"type": "multiple_answers_question", "text": "Which of the following are key perspectives of ADKAR. (Select all that apply).", "answers": [{"correct": true, "answer_text": "Employees go through the change process in stages and go through these stages as individuals"}, {"correct": true, "answer_text": "Value systems have a direct impact on how employees react to change"}, {"correct": true, "answer_text": "Change agents must be conscious of both a senders\u2019 mentality and the receivers\u2019 orientation"}, {"correct": true, "answer_text": "The \u201cright\u201d answer is not enough to successfully implement change"}, {"correct": true, "answer_text": "Employee resistance is the norm, not the exception. Expect some to never support the change"}, {"correct": false, "answer_text": "Once you convince the early adopters to change, the others will follow"}, {"correct": true, "answer_text": "The size of the change determines how much and what kind of change management is needed"}, {"correct": true, "answer_text": "Visible and active sponsorship is not only desirable but necessary for success"}, {"correct": false, "answer_text": "It is important to try to get everyone to move through change together"}, {"correct": false, "answer_text": "It is important to slow down if change isn't working"}]}, {"type": "multiple_answers_question", "text": "The reading <a class=\"inline_disabled\" href=\"https://www.ipma.world/forming-project-teams-the-right-mix-is-key-to-success/\" target=\"_blank\">(<span>Forming project teams \u2013 the right mix is key to success)</span></a> referred to Tuckman's five stages, and this was then explained further in reading 4 <a class=\"inline_disabled\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\">(<span>5 Stages of a Team Development Tuckman | Better Explained)</span></a>. One of the five stages is storming, where a team has problems. Which of the following are identified as ways of dealing with these problems? (Select all that apply).", "answers": [{"correct": true, "answer_text": "Define clear responsibilities"}, {"correct": false, "answer_text": "Always give work to the person who is most capable"}, {"correct": false, "answer_text": "Fire anyone who is a troublemaker"}, {"correct": true, "answer_text": "Set proper ground rules"}, {"correct": false, "answer_text": "Only allocate work to people who are keen to do it"}, {"correct": true, "answer_text": "Define tasks clearly within individuals domains"}]}, {"type": "multiple_answers_question", "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\">(T<span>eam Building in Project Management)</span></a>, which of the following are major barriers to project teams development? (Select all that apply).", "answers": [{"correct": true, "answer_text": "Missing Support from Senior Management"}, {"correct": true, "answer_text": "Lack of Team Structure"}, {"correct": true, "answer_text": "Conflicts over Roles"}, {"correct": false, "answer_text": "Changing team membership"}, {"correct": true, "answer_text": "Communication Difficulties"}, {"correct": true, "answer_text": "Credibility of the Project Leader"}, {"correct": false, "answer_text": "Different levels of technical skills"}, {"correct": true, "answer_text": "Changing Project Environments"}]}, {"type": "multiple_answers_question", "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a> suggestions for effectively managing the barrier of&nbsp;<em>'Differing Outlooks, Priorities, Interests and Judgements of Team Members'</em> are? (Select all that apply).", "answers": [{"correct": false, "answer_text": "Conduct regular status review meetings."}, {"correct": true, "answer_text": "Sell \u201cteam\u201d concept and explain responsibilities."}, {"correct": true, "answer_text": "Fully explain the scope of the project and the rewards."}, {"correct": true, "answer_text": "Make effort early in the project life cycle to discover these conflicting differences."}, {"correct": true, "answer_text": "Try to blend individual interests with the overall project objectives."}, {"correct": false, "answer_text": "Stabilise external influences."}, {"correct": false, "answer_text": "Ask team members where they see themselves fitting into the project."}]}, {"type": "multiple_answers_question", "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a> what are some characteristics of an effective project team? (Select all that apply).", "answers": [{"correct": true, "answer_text": "High Trust Levels"}, {"correct": true, "answer_text": "High Energy Levels and Enthusiasm"}, {"correct": false, "answer_text": "Lethargic/Unresponsive"}, {"correct": false, "answer_text": "Low Commitment to Project Objectives"}, {"correct": true, "answer_text": "High Interest in the Team and Team Processes"}, {"correct": true, "answer_text": "Team Members Highly Interdependent"}, {"correct": true, "answer_text": "High Performance"}, {"correct": false, "answer_text": "Conflict Avoided at All Costs"}]}, {"type": "multiple_answers_question", "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a><span>&nbsp;what are some characteristics of an ineffective project team? (Select all that apply).</span>", "answers": [{"correct": true, "answer_text": "Low Commitment to Project Objectives"}, {"correct": false, "answer_text": "Professional Objectives of Team Members Coincides with Project Requirements"}, {"correct": false, "answer_text": "Team Members Highly Interdependent"}, {"correct": true, "answer_text": "Low Performance"}, {"correct": true, "answer_text": "Subtle Sabotage"}, {"correct": true, "answer_text": "Lethargic/Unresponsive"}, {"correct": true, "answer_text": "Team Members Operate Independently/ Lack of Coordination"}, {"correct": true, "answer_text": "Manipulation of Others, Hidden Feelings"}]}, {"type": "matching_question", "text": "According to the reading <a class=\"inline_disabled external\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\"><span>(5 Stages of a Team Development Tuckman | Better Explained)</span></a> match the five stages of team development to the description that best describes what occurs in the stage.", "answers": [{"text": "Forming", "matching": "This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another."}, {"text": "Storming", "matching": "This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc."}, {"text": "Norming", "matching": "This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc."}, {"text": "Performing", "matching": "This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work."}, {"text": "Adjourning", "matching": "This is the stage in which the teams are disbanded and most people will need to find new opportunities."}], "matching_list": ["This is the stage in which the teams are disbanded and most people will need to find new opportunities.", "This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc.", "This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another.", "This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc.", "This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work."]}, {"type": "multiple_answers_question", "text": "According to the reading<a class=\"inline_disabled\" href=\"https://project-management.com/top-10-reasons-why-projects-fail/\" target=\"_blank\">(Project Failure: Top 10 Reasons Why Projects Fail)</a> what are some of the top reasons why a project fails? (Select all that apply).", "answers": [{"correct": true, "answer_text": "Bad Stakeholder Management"}, {"correct": true, "answer_text": "Scope Creep"}, {"correct": true, "answer_text": "Under-allocated Resources"}, {"correct": false, "answer_text": "Generous Budget"}, {"correct": false, "answer_text": "Over-allocated Resources"}, {"correct": false, "answer_text": "Team Planning Sessions"}, {"correct": true, "answer_text": "Poor Communication"}, {"correct": true, "answer_text": "Unreliable Estimates"}]}, {"type": "multiple_answers_question", "text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\">(<span>Critical success factors in project management. To fail or not to fail, that is the question!)</span></a> what are some of the factors that substantially influence project success?&nbsp;", "answers": [{"correct": false, "answer_text": "The change in the company environment."}, {"correct": true, "answer_text": "Establishing project team."}, {"correct": false, "answer_text": "Client involvement."}, {"correct": true, "answer_text": "Formal establishing of Project Manager."}, {"correct": false, "answer_text": "Recognising client's needs."}]}, {"type": "multiple_answers_question", "text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\"><span>(Critical success factors in project management. To fail or not to fail, that is the question!)</span><span class=\"screenreader-only\">&nbsp;(Links to an external site.)</span></a><span>&nbsp;what are some of the factors that have a small influence on project success?&nbsp;</span>", "answers": [{"correct": true, "answer_text": "Periodically meeting of the steering commitee."}, {"correct": false, "answer_text": "Project team experience."}, {"correct": true, "answer_text": "Frequent changes in schedules."}, {"correct": false, "answer_text": "Client staff fluctuation."}, {"correct": false, "answer_text": "Ad-hoc project team meetings."}, {"correct": true, "answer_text": "IT Support for scheduling."}, {"correct": false, "answer_text": "Periodical reports to project team."}]}, {"type": "multiple_answers_question", "text": "Which 3 steps from John Kotter's 8 step change model are focused on&nbsp;<em>\"Creating a climate for change\"</em>? (Select all that are applicable)", "answers": [{"correct": false, "answer_text": "Create short term wins"}, {"correct": true, "answer_text": "Get the right vision"}, {"correct": false, "answer_text": "Empower action"}, {"correct": true, "answer_text": "Increase urgency"}, {"correct": true, "answer_text": "Build the guiding team"}, {"correct": false, "answer_text": "Don't let up"}, {"correct": false, "answer_text": "Communicate for by-in"}, {"correct": false, "answer_text": "Make it stick"}]}]
+[
+	{
+		"type": "multiple_answers_question",
+		"text": "<span>Which of the following are typical approaches taken to sourcing IT talent? (Select all that apply).</span>",
+		"answers": [
+			{ "correct": false, "answer_text": "Asking your friends" },
+			{ "correct": true, "answer_text": "Using a recruitment company" },
+			{ "correct": false, "answer_text": "Searching for people on google" },
+			{ "correct": true, "answer_text": "Direct recruitment" },
+			{ "correct": true, "answer_text": "Contracting a consulting company" },
+			{ "correct": true, "answer_text": "Outsourcing to specialist companies" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "<div id=\"question_2347438_question_text\" class=\"question_text user_content enhanced\">Deloitte research has identified a number of key approaches to attracting and retaining expert staff. Select the top three reasons that were identified.</div>\n  <div class=\"answers\">\n  <div class=\"answers_wrapper\">\n  <div id=\"answer_1444\" class=\"answer answer_for_                                                   correct_answer hover\" title=\"Adjust rewards depending on performance. This was the correct answer.\" aria-describedby=\"answer_1444_arrow\"><span id=\"answer_1444_arrow\" class=\"answer_arrow info\">Correct Answer</span></div>\n  </div>\n  </div>",
+		"answers": [
+			{ "correct": true, "answer_text": "Provide career flexibility" },
+			{ "correct": true, "answer_text": "Offering mentoring for staff" },
+			{ "correct": false, "answer_text": "Be recognised as a good employer" },
+			{ "correct": false, "answer_text": "Allow employers to have dinner with the boss" },
+			{ "correct": false, "answer_text": "Offer fast-track career pathways" },
+			{ "correct": true, "answer_text": "Adjust rewards depending on performance" }
+		]
+	},
+	{
+		"type": "multiple_choice_question",
+		"text": "<span>Which of the following is the greatest obstacle to the success of most major change projects.</span>",
+		"answers": [
+			{ "correct": false, "answer_text": "Cost increases" },
+			{ "correct": false, "answer_text": "Speed limits" },
+			{ "correct": true, "answer_text": "People resistance" },
+			{ "correct": false, "answer_text": "Software bugs" },
+			{ "correct": false, "answer_text": "Changing requirements" },
+			{ "correct": false, "answer_text": "Time constraints" }
+		]
+	},
+	{
+		"type": "matching_question",
+		"text": "<span>Match the group of people with the role they play in supporting management of change.</span>",
+		"answers": [
+			{ "text": "Senior Management", "matching": "Sponsoring change" },
+			{ "text": "Supervisors", "matching": "Coaching the people who report to them" },
+			{ "text": "Change managers", "matching": "Applying a structured approach" },
+			{ "text": "Project team", "matching": "Integrating the people side of change" },
+			{ "text": "Support people", "matching": "Providing expertise" }
+		],
+		"matching_list": [
+			"Providing expertise",
+			"Undertaking testing",
+			"Providing support",
+			"Writing code",
+			"Coaching the people who report to them",
+			"Applying a structured approach",
+			"Integrating the people side of change",
+			"Sponsoring change"
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "Which of the following are key perspectives of ADKAR. (Select all that apply).",
+		"answers": [
+			{
+				"correct": true,
+				"answer_text": "Employees go through the change process in stages and go through these stages as individuals"
+			},
+			{
+				"correct": true,
+				"answer_text": "Value systems have a direct impact on how employees react to change"
+			},
+			{
+				"correct": true,
+				"answer_text": "Change agents must be conscious of both a senders\u2019 mentality and the receivers\u2019 orientation"
+			},
+			{
+				"correct": true,
+				"answer_text": "The \u201cright\u201d answer is not enough to successfully implement change"
+			},
+			{
+				"correct": true,
+				"answer_text": "Employee resistance is the norm, not the exception. Expect some to never support the change"
+			},
+			{
+				"correct": false,
+				"answer_text": "Once you convince the early adopters to change, the others will follow"
+			},
+			{
+				"correct": true,
+				"answer_text": "The size of the change determines how much and what kind of change management is needed"
+			},
+			{
+				"correct": true,
+				"answer_text": "Visible and active sponsorship is not only desirable but necessary for success"
+			},
+			{
+				"correct": false,
+				"answer_text": "It is important to try to get everyone to move through change together"
+			},
+			{ "correct": false, "answer_text": "It is important to slow down if change isn't working" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "The reading <a class=\"inline_disabled\" href=\"https://www.ipma.world/forming-project-teams-the-right-mix-is-key-to-success/\" target=\"_blank\">(<span>Forming project teams \u2013 the right mix is key to success)</span></a> referred to Tuckman's five stages, and this was then explained further in reading 4 <a class=\"inline_disabled\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\">(<span>5 Stages of a Team Development Tuckman | Better Explained)</span></a>. One of the five stages is storming, where a team has problems. Which of the following are identified as ways of dealing with these problems? (Select all that apply).",
+		"answers": [
+			{ "correct": true, "answer_text": "Define clear responsibilities" },
+			{ "correct": false, "answer_text": "Always give work to the person who is most capable" },
+			{ "correct": false, "answer_text": "Fire anyone who is a troublemaker" },
+			{ "correct": true, "answer_text": "Set proper ground rules" },
+			{ "correct": false, "answer_text": "Only allocate work to people who are keen to do it" },
+			{ "correct": true, "answer_text": "Define tasks clearly within individuals domains" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\">(T<span>eam Building in Project Management)</span></a>, which of the following are major barriers to project teams development? (Select all that apply).",
+		"answers": [
+			{ "correct": true, "answer_text": "Missing Support from Senior Management" },
+			{ "correct": true, "answer_text": "Lack of Team Structure" },
+			{ "correct": true, "answer_text": "Conflicts over Roles" },
+			{ "correct": false, "answer_text": "Changing team membership" },
+			{ "correct": true, "answer_text": "Communication Difficulties" },
+			{ "correct": true, "answer_text": "Credibility of the Project Leader" },
+			{ "correct": false, "answer_text": "Different levels of technical skills" },
+			{ "correct": true, "answer_text": "Changing Project Environments" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a> suggestions for effectively managing the barrier of&nbsp;<em>'Differing Outlooks, Priorities, Interests and Judgements of Team Members'</em> are? (Select all that apply).",
+		"answers": [
+			{ "correct": false, "answer_text": "Conduct regular status review meetings." },
+			{
+				"correct": true,
+				"answer_text": "Sell \u201cteam\u201d concept and explain responsibilities."
+			},
+			{ "correct": true, "answer_text": "Fully explain the scope of the project and the rewards." },
+			{
+				"correct": true,
+				"answer_text": "Make effort early in the project life cycle to discover these conflicting differences."
+			},
+			{
+				"correct": true,
+				"answer_text": "Try to blend individual interests with the overall project objectives."
+			},
+			{ "correct": false, "answer_text": "Stabilise external influences." },
+			{
+				"correct": false,
+				"answer_text": "Ask team members where they see themselves fitting into the project."
+			}
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a> what are some characteristics of an effective project team? (Select all that apply).",
+		"answers": [
+			{ "correct": true, "answer_text": "High Trust Levels" },
+			{ "correct": true, "answer_text": "High Energy Levels and Enthusiasm" },
+			{ "correct": false, "answer_text": "Lethargic/Unresponsive" },
+			{ "correct": false, "answer_text": "Low Commitment to Project Objectives" },
+			{ "correct": true, "answer_text": "High Interest in the Team and Team Processes" },
+			{ "correct": true, "answer_text": "Team Members Highly Interdependent" },
+			{ "correct": true, "answer_text": "High Performance" },
+			{ "correct": false, "answer_text": "Conflict Avoided at All Costs" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/team-building-development-project-management-5707\" target=\"_blank\"><span>(Team Building in Project Management)</span></a><span>&nbsp;what are some characteristics of an ineffective project team? (Select all that apply).</span>",
+		"answers": [
+			{ "correct": true, "answer_text": "Low Commitment to Project Objectives" },
+			{
+				"correct": false,
+				"answer_text": "Professional Objectives of Team Members Coincides with Project Requirements"
+			},
+			{ "correct": false, "answer_text": "Team Members Highly Interdependent" },
+			{ "correct": true, "answer_text": "Low Performance" },
+			{ "correct": true, "answer_text": "Subtle Sabotage" },
+			{ "correct": true, "answer_text": "Lethargic/Unresponsive" },
+			{
+				"correct": true,
+				"answer_text": "Team Members Operate Independently/ Lack of Coordination"
+			},
+			{ "correct": true, "answer_text": "Manipulation of Others, Hidden Feelings" }
+		]
+	},
+	{
+		"type": "matching_question",
+		"text": "According to the reading <a class=\"inline_disabled external\" href=\"https://project.pm/team-development-tuckman/\" target=\"_blank\"><span>(5 Stages of a Team Development Tuckman | Better Explained)</span></a> match the five stages of team development to the description that best describes what occurs in the stage.",
+		"answers": [
+			{
+				"text": "Forming",
+				"matching": "This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another."
+			},
+			{
+				"text": "Storming",
+				"matching": "This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc."
+			},
+			{
+				"text": "Norming",
+				"matching": "This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc."
+			},
+			{
+				"text": "Performing",
+				"matching": "This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work."
+			},
+			{
+				"text": "Adjourning",
+				"matching": "This is the stage in which the teams are disbanded and most people will need to find new opportunities."
+			}
+		],
+		"matching_list": [
+			"This is the stage in which the teams are disbanded and most people will need to find new opportunities.",
+			"This is the stage in which the team's effectiveness drops drastically and where most teams fail. This is where the team members need to discuss skills, background etc.",
+			"This is the stage in which the team members meet for the very first time and are excited, positive and polite towards one another.",
+			"This is the stage in which team effectiveness should go up exponentially. In this stage team members ask each other for help, provide constructive feedback etc.",
+			"This is the stage in which team members find it easy to be a part of the team, you can easily accomodate new people and start to focus on other goals and areas of work."
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "According to the reading<a class=\"inline_disabled\" href=\"https://project-management.com/top-10-reasons-why-projects-fail/\" target=\"_blank\">(Project Failure: Top 10 Reasons Why Projects Fail)</a> what are some of the top reasons why a project fails? (Select all that apply).",
+		"answers": [
+			{ "correct": true, "answer_text": "Bad Stakeholder Management" },
+			{ "correct": true, "answer_text": "Scope Creep" },
+			{ "correct": true, "answer_text": "Under-allocated Resources" },
+			{ "correct": false, "answer_text": "Generous Budget" },
+			{ "correct": false, "answer_text": "Over-allocated Resources" },
+			{ "correct": false, "answer_text": "Team Planning Sessions" },
+			{ "correct": true, "answer_text": "Poor Communication" },
+			{ "correct": true, "answer_text": "Unreliable Estimates" }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "According to the reading <a class=\"inline_disabled\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\">(<span>Critical success factors in project management. To fail or not to fail, that is the question!)</span></a> what are some of the factors that substantially influence project success?&nbsp;",
+		"answers": [
+			{ "correct": false, "answer_text": "The change in the company environment." },
+			{ "correct": true, "answer_text": "Establishing project team." },
+			{ "correct": false, "answer_text": "Client involvement." },
+			{ "correct": true, "answer_text": "Formal establishing of Project Manager." },
+			{ "correct": false, "answer_text": "Recognising client's needs." }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "<span>According to the reading&nbsp;</span><a class=\"inline_disabled external\" href=\"https://www.pmi.org/learning/library/critical-success-factors-project-management-7568\" target=\"_blank\"><span>(Critical success factors in project management. To fail or not to fail, that is the question!)</span><span class=\"screenreader-only\">&nbsp;(Links to an external site.)</span></a><span>&nbsp;what are some of the factors that have a small influence on project success?&nbsp;</span>",
+		"answers": [
+			{ "correct": true, "answer_text": "Periodically meeting of the steering commitee." },
+			{ "correct": false, "answer_text": "Project team experience." },
+			{ "correct": true, "answer_text": "Frequent changes in schedules." },
+			{ "correct": false, "answer_text": "Client staff fluctuation." },
+			{ "correct": false, "answer_text": "Ad-hoc project team meetings." },
+			{ "correct": true, "answer_text": "IT Support for scheduling." },
+			{ "correct": false, "answer_text": "Periodical reports to project team." }
+		]
+	},
+	{
+		"type": "multiple_answers_question",
+		"text": "Which 3 steps from John Kotter's 8 step change model are focused on&nbsp;<em>\"Creating a climate for change\"</em>? (Select all that are applicable)",
+		"answers": [
+			{ "correct": false, "answer_text": "Create short term wins" },
+			{ "correct": true, "answer_text": "Get the right vision" },
+			{ "correct": false, "answer_text": "Empower action" },
+			{ "correct": true, "answer_text": "Increase urgency" },
+			{ "correct": true, "answer_text": "Build the guiding team" },
+			{ "correct": false, "answer_text": "Don't let up" },
+			{ "correct": false, "answer_text": "Communicate for by-in" },
+			{ "correct": false, "answer_text": "Make it stick" }
+		]
+	}
+]
