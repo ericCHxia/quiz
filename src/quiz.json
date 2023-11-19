@@ -17,11 +17,31 @@
     },
     {
         "short": "w05",
-        "name": "Week 5 – Information, Research, and Estimation"
+        "name": "Week 5 - Information, Research, and Estimation"
     },
     {
         "short": "w06",
-        "name": "Week 6 – Quality Assurance"
+        "name": "Week 6 - Quality Assurance"
+    },
+    {
+        "short": "w07",
+        "name": "Week 7 - Testing Management"
+    },
+    {
+        "short": "w08",
+        "name": "Week 8 - Security Management"
+    },
+    {
+        "short": "w10",
+        "name": "Week 10 - Communication"
+    },
+    {
+        "short": "w11",
+        "name": "Week 10 - Ethics & Regulation"
+    },
+    {
+        "short": "w12",
+        "name": "Week 10 - Decision Making"
     },
     {
         "short": "w13",
