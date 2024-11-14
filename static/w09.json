@@ -1,0 +1,94 @@
+[
+  {
+    "type": "multiple_choice_question",
+    "text": "<p>A data engineering team has created a series of tables using Parquet data stored in an external system. The team is noticing that after appending new rows to the data in the external system, their queries within Databricks are not returning the new rows. They identify the caching of the previous data as the cause of this issue.</p>\n<p>Which of the following approaches will ensure that the data returned by queries is always up-to-date?</p>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "The tables should be converted to the Delta format"
+      },
+      {
+        "correct": false,
+        "answer_text": "The tables should be stored in a cloud-based external system"
+      },
+      {
+        "correct": false,
+        "answer_text": "The tables should be refreshed in the writing cluster before the next query is run"
+      },
+      {
+        "correct": false,
+        "answer_text": "The tables should be altered to include metadata to not cache"
+      },
+      {
+        "correct": false,
+        "answer_text": "The tables should be updated before the next query is run"
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<p>A company that provides a popular music streaming service is experiencing slow query performance when their data team tries to analyze user listening habits. The data team needs to perform complex queries on large tables containing billions of rows of data, which include user demographics, song metadata, and user activity logs. The current infrastructure is struggling to handle the load, causing delays in generating insights.</p>\n<p>&nbsp;</p>\n<p>Which of the following would meet the requirements?</p>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Implement a Materialised View in Amazon Redshift."
+      },
+      {
+        "correct": false,
+        "answer_text": "Set up a Custom scalar user-defined function (UDF) using either a SQL SELECT clause or a Python program."
+      },
+      {
+        "correct": false,
+        "answer_text": "Integrate Amazon ElastiCache to cache query results."
+      },
+      {
+        "correct": false,
+        "answer_text": "Use the built-in Aggregate View."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<p><span>You are working on optimizing BigQuery for a query that is run repeatedly on a single table. The data queried is about 1 GB, and some rows are expected to change about 10 times every hour. You have optimized the SQL statements as much as possible. You want to further optimize the query's performance. What should you do?</span></p>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Create a materialized view based on the table, and query that view."
+      },
+      {
+        "correct": false,
+        "answer_text": "Enable caching of the queried data so that subsequent queries are faster."
+      },
+      {
+        "correct": false,
+        "answer_text": "Create a scheduled query, and run it a few minutes before the report has to be created."
+      },
+      {
+        "correct": false,
+        "answer_text": "Reserve a larger number of slots in advance so that you have maximum compute power to execute the query."
+      }
+    ]
+  },
+  {
+    "type": "multiple_choice_question",
+    "text": "<div class=\"pYfr3c oMIhSd\">\n<div class=\"prOLdf\">\n<div class=\"g53bl\">\n<div id=\"i121\" class=\"cTDvob D1wxyf RjsPE\" role=\"heading\" aria-level=\"3\" aria-describedby=\"i.desc.2056637468 i122\"><span class=\"M7eMe\"><span>Your company runs its business-critical system on PostgreSQL. The system is accessed simultaneously from many locations around the world and supports millions of customers. Your database administration team manages the redundancy and scaling manually. You want to migrate the database to Google Cloud. You need a solution that will provide global scale and availability and require minimal maintenance. What should you do?</span></span></div>\n</div>\n</div>\n</div>",
+    "answers": [
+      {
+        "correct": true,
+        "answer_text": "Migrate to Cloud Spanner."
+      },
+      {
+        "correct": false,
+        "answer_text": "Migrate to BigQuery."
+      },
+      {
+        "correct": false,
+        "answer_text": "Migrate to a Cloud SQL for PostgreSQL instance."
+      },
+      {
+        "correct": false,
+        "answer_text": "Migrate to bare metal machines with PostgreSQL installed."
+      }
+    ]
+  }
+]

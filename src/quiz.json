@@ -1,50 +1,38 @@
 [
     {
-        "short": "w01",
-        "name": "Week 1 - Introduction"
-    },
-    {
         "short": "w02",
-        "name": "Week 2 - Creating organisational value from IT investments"
+        "name": "Week 2"
     },
     {
         "short": "w03",
-        "name": "Week 3 - IT Lifecycle and Its Processes"
+        "name": "Week 3"
     },
     {
         "short": "w04",
-        "name": "Week 4 - Teams"
+        "name": "Week 4"
     },
     {
         "short": "w05",
-        "name": "Week 5 - Information, Research, and Estimation"
+        "name": "Week 5"
     },
     {
         "short": "w06",
-        "name": "Week 6 - Quality Assurance"
+        "name": "Week 6"
     },
     {
         "short": "w07",
-        "name": "Week 7 - Testing Management"
+        "name": "Week 7"
     },
     {
         "short": "w08",
-        "name": "Week 8 - Security Management"
+        "name": "Week 8"
     },
     {
         "short": "w10",
-        "name": "Week 10 - Communication"
+        "name": "Week 10"
     },
     {
         "short": "w11",
-        "name": "Week 11 - Ethics & Regulation"
-    },
-    {
-        "short": "w12",
-        "name": "Week 12 - Decision Making"
-    },
-    {
-        "short": "w13",
-        "name": "Week 13 - Review"
+        "name": "Week 11"
     }
 ]
