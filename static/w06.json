@@ -9,7 +9,7 @@
       },
       {
         "correct": true,
-        "answer_text": ""
+        "answer_text": "Stratified Sampling"
       },
       {
         "correct": false,
@@ -27,7 +27,7 @@
     "answers": [
       {
         "correct": true,
-        "answer_text": ""
+        "answer_text": "CREATE TABLE recent_web_activity AS SELECT user_id, page_visited, visit_date FROM web_logs WHERE visit_date >= now() - interval '30' day;"
       },
       {
         "correct": false,
